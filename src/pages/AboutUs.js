@@ -42,7 +42,7 @@ function Aboutus() {
 
             <div className='col-md-4 d-flex justify-content-center'>
               <div class="card" style={{width: '80%',borderStyle:'none'}}>
-   <img className="card-img-top" src="/image1.png" alt="Card image cap" /> 
+   <img className="card-img-top" src="/fruit.jpeg" style={{borderRadius:'10px'}} alt="Card image cap" /> 
   <div class="card-body">
     <h5 class="card-title">Fruitful Results</h5>
     <p class="card-text">We continue our mothers' legacy by offering NutryFood

@@ -12,6 +12,18 @@ const FooterPage = () => {
                 </div>
             </div>
             <div className="row">
+              <div className="col-12">
+                <div style={{display:'flex',flexDirection:'row',alignItems:'center'}}>
+                <img src="/whatsapp.png" style={{width:'50px',height:'50px'}}/>
+                <p style={{color:'white',fontSize:'20px'}}>+91 9392587332</p>
+                </div>
+                <div style={{display:'flex',flexDirection:'row',alignItems:'center'}}>
+                <img src="/email.jpg" style={{width:'30px',height:'30px',borderRadius:'50px',marginRight:'10px'}}/>
+               <p style={{color:'white',fontSize:'20px'}}>contact@Nutryfood.com</p>
+                </div>
+              </div>
+            </div>
+            <div className="row mt-3">
             <ul className="d-flex mb-4" style={{listStyle:'none',gap:'20px'}}>
         <li className="nav-item">
           <Link className="text-white nav-link" to="/">Home</Link>
@@ -26,6 +38,7 @@ const FooterPage = () => {
           <a className="nav-link text-white">ContactUs</a>
         </li>
       </ul>
+
       <div className="row mb-4 d-flex align-items-center">
         <div className="row">
         <div className="col-md-6 d-flex gap-2 mb-3">

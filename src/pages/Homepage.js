@@ -3,8 +3,20 @@ import './Homepage.css'
 const Homepage = () => {
     return(
         <div style={{width:'100%',overflow:'hidden'}}>
-            <div className="row">
-                <img src="/chef-image.png" />
+            <div className="row" style={{height:'20%'}}>
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="/i1.jpeg" alt="First slide" />
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" style={{height:'500px'}} src="/i2.jpeg" alt="Second slide" />
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" style={{height:'500px'}} src="/i3.jpeg" alt="Third slide" />
+    </div>
+  </div>
+</div>
             </div>
             <div className="row container matter-cont">
                 <div className="col-md-6">
@@ -34,8 +46,22 @@ At Nutryfood, we make sure everyone can afford great food. Our solutions are bud
                 <div className="col-12 d-flex justify-content-center" >
                     <span style={{fontWeight:'600',fontSize:'20px',color:'#000000'}}>Who We Are?</span>
                 </div>
-                <div className="col-12 d-flex justify-content-center">
-                    <img style={{width:'80%',height:'80%'}} src="/whoweare.png" />
+                <div className="row">
+                <div className="col-md-6 d-flex justify-content-center">
+                    <img style={{width:'80%',height:'80%'}} src="/whowe.jpeg" />
+                </div>
+                <div className="col-md-6">
+                <span style={{color:'#000000B2',fontWeight:'600',fontSize:'20px'
+}}>Welcome to Nutryfood, where culinary innovation meets tradition. With our supreme Research and Development, we've revolutionized cooking, turning hours of effort into minutes of convenience. Effortless Cooking is our mantra, where quality and convenience unite in every dish.
+</span><hr />
+<span style={{color:'#000000B2',fontWeight:'600',fontSize:'20px'
+}}>
+We redefine taste through Research Excellence, blending innovative techniques with traditional Indian flavors. Our mission is to share authentic Indian cuisine globally, without compromising on Nutrition, Quality, or Taste.
+</span><hr />
+<span style={{color:'#000000B2',fontWeight:'600',fontSize:'20px'
+}}>
+At Nutryfood, excellence is accessible to all, with cost-effective solutions for every kitchen. Join us on a journey where culinary creativity meets innovation, promising unforgettable dining experiences for all.</span><hr />
+                </div>
                 </div>
             </div>
             <div className="row d-flex justify-content-center" style={{width:'100%'}}>

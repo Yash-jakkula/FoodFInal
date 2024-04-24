@@ -9,7 +9,7 @@ const ContactUs = ()=>{
 
     const con = () => {
         console.log("values",name,email,queries);
-        const ownerPhoneNumber = '7036987151';
+        const ownerPhoneNumber = '9392587332';
         if(name && email && queries ){
         const message = `User Details:\nName: ${name}\nemail: ${email}\nquery: ${queries}`;
      
@@ -27,7 +27,7 @@ const ContactUs = ()=>{
                 <div className="col-md-6 container d-flex justify-content-center">
                     <div style={{width:'50%'}}>
                     <img className="contactusimg" src="/contactus.png" alt="contactusimage" style={{width:"100%",height:'100%',position:'relative'}}/>
-                    <img style={{position:'absolute',color:'white',bottom:'30%',left:'15%',width:'20%'}} src="/textcopy.png" />
+                    <img style={{position:'absolute',color:'white',bottom:'30%',left:'35%',width:'20%'}} src="/textcopy.png" />
                     </div>
                 </div>
                 <div className="col-md-6 d-flex justify-content-center">
