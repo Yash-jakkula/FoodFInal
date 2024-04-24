@@ -1,0 +1,53 @@
+.col-6-1images{
+    width: 80%;
+    height: 100px;
+    
+}
+.col-6-2images{
+    width: 80%;
+    height: 500px;
+}
+
+.matter-cont{
+    width: 100%;
+}
+
+.best-seller-image{
+    width: 70%;
+    height: 70%;
+}
+
+@media screen and (max-width:600px){
+    .mobile{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+    .component-38-icon{
+        font-size: 10px;
+    }
+    .external{
+        font-size: 10px;
+    }
+}
+
+.image-container {
+    width: 100%;
+    
+    overflow: hidden; /* Hide overflow to prevent scrollbars */
+    animation: scroll-images 20s linear infinite; /* Animation for scrolling */
+  }
+  
+  .image-container img {
+    display: inline-block;
+    width: 50px; /* Assuming all images have the same width */
+    animation: scroll-images 20s linear infinite; /* Apply animation to images */
+    margin:10px
+  }
+  
+  @keyframes scroll-images {
+    from { transform: translateX(0); }
+    to { transform: translateX(-100%); } /* Move images 100% to the left */
+  }
+  
+  

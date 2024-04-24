@@ -1,0 +1,102 @@
+.order{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+}
+.order-image{
+    border-radius: 12px;
+border: 1px solid rgba(0, 74, 173, 0.40);
+background: #FFF;
+padding:1.5rem;
+display:flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 30vw;
+}
+.order-image img{
+  width: 100%; 
+    border-radius: 8px;
+border: 2px solid rgba(0, 74, 173, 0.09);
+background: #CBE1FF;
+}
+.order-name{
+    color: rgba(0, 0, 0, 0.85);
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+padding: 0.4rem;
+}
+.form-order{
+    display: inline-flex;
+align-items: flex-start;
+gap: 16px;
+margin-top: 2rem;
+display:flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.form-input{
+    display:flex;
+    gap:1rem;
+}
+.order-input{
+    display: flex;
+height: 25px;
+padding: 20px 117px 20px 16px;
+align-items: center;
+border-radius: 10px;
+border: 2px solid rgba(0, 74, 173, 0.40);
+background: #CBE1FF;
+}
+
+.order-btn{
+    margin-top: 2rem;
+    display: flex;
+    height: 80px;
+    width: 100%;
+padding: 12px 0px 11.333px 0px;
+justify-content: center;
+align-items: center;
+border-radius: 10px;
+border: 2px solid rgba(0, 74, 173, 0.40);
+background: #41C452;
+padding:1rem 2rem;
+}
+.order-btn:hover{
+    cursor: pointer;
+}
+.order-btn-des{
+    display: flex;
+align-items: center;
+gap: 8px;
+}
+
+.btn-text{
+    color: #FFF;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+@media screen and (max-width:770px) {
+    .form-input{
+        display: flex;
+        flex-direction: column;
+    }
+    .order-input{
+        padding: 20px 57px 20px 16px;
+    }
+}
+@media screen and (min-width:771px) and (max-width:1120px) {
+    .form-input{
+        display: flex;
+        flex-direction: column;
+    }
+}

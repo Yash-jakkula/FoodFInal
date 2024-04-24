@@ -1,0 +1,44 @@
+.p-image{
+  width: 80%;
+  height: 100%;
+}
+
+@media  screen and (max-width:600px) {
+  .journeyimg{
+    width: 90%;
+    height: 90%;
+  }
+  .f1{
+    display: flex;
+    justify-content: start;
+  }
+}
+
+.f1{
+  display: flex;
+  justify-content: end;
+}
+
+.s-image{
+  width: 80%;
+  height: 100%;
+  margin: 3;
+}
+
+.f2-row{
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.center-div{
+  margin-bottom: 15px;
+}
+
+.col-div{
+  width: 80%;
+  height: 100%;
+}
+
+.col-div-main{
+  margin-top:'2px'
+}
