@@ -566,7 +566,7 @@ function ProductPage() {
                                 <div className='prod-card' >
                                     <div className='discount-tag'>10% Off</div>
                                     <div className='prod-card-image'>
-                                        <img src='./Frame 260 (2).png' alt={product.productName}></img>
+                                        <img src={product.image} width={300} alt={product.productName}></img>
                                     </div>
                                     <div className='prod-card-title'>{product.productName}</div>
                                     <Link to={{
@@ -592,7 +592,7 @@ function ProductPage() {
                                 <div className='prod-card' >
                                     <div className='discount-tag'>10% Off</div>
                                     <div className='prod-card-image'>
-                                        <img src='./Frame 260 (2).png' alt={product.productName}></img>
+                                        <img width={300} src={product.image} alt={product.productName}></img>
                                     </div>
                                     <div className='prod-card-title'>{product.productName}</div>
                                     <Link to={{
@@ -619,7 +619,7 @@ function ProductPage() {
                                 <div className='prod-card' >
                                     <div className='discount-tag'>10% Off</div>
                                     <div className='prod-card-image'>
-                                        <img src='./Frame 260 (2).png' alt={product.productName}></img>
+                                        <img width={300} src={product.image} alt={product.productName}></img>
                                     </div>
                                     <div className='prod-card-title'>{product.productName}</div>
                                     <Link to={{
@@ -644,7 +644,7 @@ function ProductPage() {
                                 <div className='prod-card' >
                                     <div className='discount-tag'>10% Off</div>
                                     <div className='prod-card-image'>
-                                        <img src='./Frame 260 (2).png' alt={product.productName}></img>
+                                        <img style={300} src={product.image} alt={product.productName}></img>
                                     </div>
                                     <div className='prod-card-title'>{product.productName}</div>
                                     <Link to={{
@@ -669,7 +669,7 @@ function ProductPage() {
                                 <div className='prod-card' >
                                     <div className='discount-tag'>10% Off</div>
                                     <div className='prod-card-image'>
-                                        <img src='./Frame 260 (2).png' alt={product.productName}></img>
+                                        <img width={300} src={product.image} alt={product.productName}></img>
                                     </div>
                                     <div className='prod-card-title'>{product.productName}</div>
                                     <Link to={{

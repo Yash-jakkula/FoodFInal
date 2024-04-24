@@ -35,7 +35,7 @@ const FooterPage = () => {
         <a className="nav-link text-white" href="#">Products</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link text-white">ContactUs</a>
+        <Link className="text-white nav-link" to="/contactus">Contact Us</Link>
         </li>
       </ul>
 

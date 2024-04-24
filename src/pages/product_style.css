@@ -219,11 +219,11 @@ main {
 .prod-card-image {
     display: inline-flex;
     padding: 28px 39px 10px 60.5px;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     border-radius: 0.5rem;
     border: 2px solid rgba(0, 74, 173, 0.09);
-    background: #CBE1FF;
+   
 }
 
 .prod-card-title {
