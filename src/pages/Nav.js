@@ -12,13 +12,13 @@ const Nav = () => {
                 <div className="col-12 navbar-col-1">
                     <div className="row nav-row-1">
                         <div className="col-md-4">
-                            <img className="logoimages" src="/nutriFoodLogo.png" alt="logo" />
+                            <img className="logoimages" src="./nutriFoodLogo.png" alt="logo" />
                         </div>
                         <div className="col-md-4">
                           
                         </div>
                         <div className="col-md-4 d-flex justify-content-end">
-                            <img className="logoimages" src="/navimage.png" />
+                            <img className="logoimages" src="./navimage.png" />
                         </div>
                     </div>
                     
