@@ -56,7 +56,7 @@ function App() {
 
   return (
     
-    <div className="main" style={{overflow:'hidden'}}>
+    <div className="main" style={{overflow:'hidden',backgroundColor:'white'}}>
       <div className="row">
         <div className="col-12">
       <Nav />

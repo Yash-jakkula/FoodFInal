@@ -21,7 +21,7 @@ const Homepage = () => {
   </div>
 </div>
             </div>
-<div className="main" style={{width:'90%'}}>
+<div className="main mt-4" style={{width:'90%'}}>
           
             <div className="row matter-cont">
             <div className="col-md-6 text-div">
@@ -33,16 +33,18 @@ const Homepage = () => {
     </div>
 </div>
 
-                <div className="col-md-6 text-div-2">
-                <span style={{color:'#000000B2',fontWeight:'600',fontSize:'20px'
-}}>Welcome to Nutryfood! We believe in blending tradition with innovation to make cooking easier and faster. Our smart research makes cooking simple and delicious. We want everyone to enjoy good food without the hassle</span><hr />
-<span style={{color:'#000000B2',fontWeight:'600',fontSize:'20px'
-}}>
-We mix new and old cooking methods to create amazing flavors in Indian cuisine. Our goal is to share authentic Indian food with the world while keeping it healthy and tasty.</span><hr />
-<span style={{color:'#000000B2',fontWeight:'600',fontSize:'20px'
-}}>
-At Nutryfood, we make sure everyone can afford great food. Our solutions are budget-friendly for every kitchen. Come join us on a journey of tasty meals and innovative ideas, making every dining experience memorable</span><hr />
-                </div>
+<div className="col-md-6 text-div-2">
+    <div className="row mb-3">
+    <span className="home-i-text">Welcome to Nutryfood! We believe in blending tradition with innovation to make cooking easier and faster. Our smart research makes cooking simple and delicious. We want everyone to enjoy good food without the hassle.</span>
+    </div>
+    <div className="row mb-3">
+    <span className="home-i-text">We mix new and old cooking methods to create amazing flavors in Indian cuisine. Our goal is to share authentic Indian food with the world while keeping it healthy and tasty.</span>
+    </div>
+    <div className="row mb-3">
+    <span className="home-i-text">At Nutryfood, we make sure everyone can afford great food. Our solutions are budget-friendly for every kitchen. Come join us on a journey of tasty meals and innovative ideas, making every dining experience memorable.</span>
+    </div>
+</div>
+
             </div>
             
            
@@ -96,7 +98,7 @@ At Nutryfood, we make sure everyone can afford great food. Our solutions are bud
             <div className="row d-flex justify-content-center">
                 <img style={{width:'70%',height:'70%'}} src="/Special.png" />
             </div>
-            <div className="row">
+            <div className="row mt-5">
                 <div className="col-12 d-flex justify-content-center mb-3" >
                     <span style={{fontWeight:'600',fontSize:'20px',color:'#000000'}}>Who We Are?</span>
                 </div>
