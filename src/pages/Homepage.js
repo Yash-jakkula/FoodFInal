@@ -106,7 +106,7 @@ const Homepage = () => {
                 </div>
                 <div className="row">
                 <div className="col-md-6 d-flex justify-content-center">
-                    <img style={{width:'80%',height:'80%'}} src="/whowe.jpeg" />
+                    <img style={{width:'80%',height:'80%'}} src="/WWA 1.jpg" />
                 </div>
                 <div className="col-md-6 who-text-div">
                     <div className="who-span">

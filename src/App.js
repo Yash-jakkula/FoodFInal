@@ -12,6 +12,7 @@ import AboutUs from './pages/AboutUs';
 import ProductPage from "./pages/Productpage";
 import OrderPage from "./pages/OrderPage";
 import ContactUs from "./pages/ContactUs";
+import './App.css'
 
 // import Home1 from "./pages/Home1";
 
@@ -54,6 +55,16 @@ function App() {
     }
   }, [pathname]);
 
+  const whatopen = ()=>{
+    const ownerPhoneNumber = '9392587332';
+    const message = "Hi there!"
+    const whatsappLink = `https://wa.me/${ownerPhoneNumber}?text=${encodeURIComponent(message)}`;
+// Opening WhatsApp
+    window.open(whatsappLink, '_blank');
+    console.log('clicked')
+
+  }
+  
   return (
     
     <div className="main" style={{overflow:'hidden',backgroundColor:'white'}}>
@@ -62,6 +73,8 @@ function App() {
       <Nav />
       </div>
       <div className="col-12">
+        {/* <button onClick={whatopen} ></button> */}
+        <img onClick={whatopen} src="/whatsapp.png" className="w-image"/>
       <Routes>
        {/* <Route path="/footer" element={<Footer/>}/> */}
       <Route path="/" element={<Homepage />} />
