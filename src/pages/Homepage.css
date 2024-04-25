@@ -147,6 +147,10 @@
     width: 80%;
 }
 
+.text-k{
+  font-size: 10px;
+}
+
 .navp {
     display: block; /* Ensure image is displayed as a block element */
     width: auto; /* Allow the image to adjust its width */
