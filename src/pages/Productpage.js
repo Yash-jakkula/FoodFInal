@@ -382,7 +382,9 @@ function ProductPage() {
        {/* <p style={{ fontWeight: 'bold', display: 'inline-block', textAlign: 'center', width: '100%' }}>products page</p> */}
 
        <div className='product-box'>
-
+       <div className="nvimage" style={{backgroundColor:'#004AAD'}}>
+                <img className="navp" src="/demo.png" />
+                </div>
   <div className='product-filter'>
   <button className={`product-button-1 ${activeTab === 'breakfast' ? 'active' : ''}`} onClick={() => handleTabClick('breakfast')}>
                         <div className='btn-des'>
@@ -636,7 +638,7 @@ function ProductPage() {
                             </div>
                         )
                     })}
-                    {teaConcentrationsData.length > 0 && activeTab === "tea" && activeFilter === "Tea"&& data.teadata.map((product) => {
+                    {teaConcentrationsData.length > 0 && activeTab === "tea" && activeFilter === "Tea" && data.teadata.map((product) => {
                         const dataToSend = { id: product.sno }
                         console.log(dataToSend, "datatpsend")
                         return (

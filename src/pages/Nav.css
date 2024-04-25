@@ -1,12 +1,74 @@
 .logoimages{
-    width: 80%;
+    width: 100%;
     height: 100%;
 }
 
-.navbar{
-    width: 100%;
-    
+.logo-div{
+    width: 30%;
+    height: 100%;
 }
+
+.right-image{
+    display: block;
+}
+.navbar-toggler .icon-menu{
+    display: none;
+  }
+
+@media screen and (max-width:600px) {
+    .right-image{
+        display: none;
+    }
+    .topNav{
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: row;
+        padding: 10px;
+    }
+    .searchbar{
+        width: 100%;
+    }
+
+  .navbar-toggler .icon-menu{
+    display: block;
+  }
+
+  .icon-menu{
+    width: 30px;
+    height: 30px;
+  }
+  .logo-div{
+    width: 40%;
+    height: 100%;
+  }
+
+  .logoimages{
+    width: 100%;
+    height: 100%;
+  }
+
+  .end-div{
+    width: 20%;
+  }
+
+}
+
+.bar{
+    display: none;
+}
+
+.navbar{
+    width: 100%;   
+}
+
+.topNav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
 
 .searchbar{
     width: 80%;

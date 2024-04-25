@@ -3,6 +3,8 @@
     height: 100px;
     
 }
+
+
 .col-6-2images{
     width: 80%;
     height: 500px;
@@ -10,12 +12,72 @@
 
 .matter-cont{
     width: 100%;
+    justify-content: center;
 }
+
 
 .best-seller-image{
     width: 70%;
     height: 70%;
 }
+
+.nvimage{
+    display: none;
+}
+
+.home-text{
+    color:#004AAD;
+    font-weight: 600;
+    font-size: 32px;   
+}
+.who-span{
+    margin-bottom: 20px;
+}
+
+
+.home-text {
+    /* Optional: Additional styles for home text */
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.k-sub-div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+    
+}
+
+.who-span-text{
+    color:#000000B2;
+    font-weight:600;
+    font-size:20px;
+}
+
+.k-image{
+    width: 100px;
+}
+.home-text-black{
+    color: #000000;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.text-k{
+    font-weight: 600;
+    font-size: 23px;
+    text-align: center;
+}
+
+.text-k-div{
+    display:flex;
+    justify-content:'center';
+    align-items: center;
+}
+
+
 
 @media screen and (max-width:600px){
     .mobile{
@@ -23,12 +85,76 @@
         flex-direction: row;
         justify-content: flex-start;
     }
+    .home-text-black{
+        color: #000000;
+        font-weight: 600;
+        font-size: 15px;
+        text-align: center;
+    }
+    
+.who-span-text{
+    color:#000000B2;
+    font-weight:600;
+    font-size:15px;
+}
+    
+.who-text-div{
+ margin-left: 20px;   
+}
+    
+.text-div-2{
+ margin-left: 60px;   
+}
+
+    .text-sub-1
+    .text-sub-2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .home-text{
+       font-size: 20px;
+    }
     .component-38-icon{
         font-size: 10px;
     }
     .external{
         font-size: 10px;
     }
+   /* CSS */
+.nvimage {
+    display: block;
+    position: relative; /* Ensure position is relative to contain absolute positioned child */
+    width: 100%; /* Ensure div fills its parent width */
+    height: 30%; /* Ensure div fills its parent height */
+    overflow: hidden; /* Hide any overflow content */
+    background-color: #004AAD; /* Optional: Set background color */
+}
+.image-bs{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.bs-i{
+    height: 80%;
+    width: 80%;
+}
+
+.navp {
+    display: block; /* Ensure image is displayed as a block element */
+    width: auto; /* Allow the image to adjust its width */
+    height: auto; /* Allow the image to adjust its height */
+    max-width: 100%; /* Limit image width to fit within parent */
+    max-height: 100%; /* Limit image height to fit within parent */
+}
+.text-sub-2{
+ margin-bottom: 20px;
+ justify-content: flex-start;
+ margin-left: 0px;   
+}
+
+
 }
 
 .image-container {
@@ -37,6 +163,21 @@
     overflow: hidden; /* Hide overflow to prevent scrollbars */
     animation: scroll-images 20s linear infinite; /* Animation for scrolling */
   }
+  .text-div {
+    display: flex;
+   
+ /* Align children to the right */
+    align-items: flex-end; /* Align children to start from the top */
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.text-sub-1
+{
+    display:flex;
+    flex-direction: column;
+}
+
   
   .image-container img {
     display: inline-block;
@@ -48,6 +189,68 @@
   @keyframes scroll-images {
     from { transform: translateX(0); }
     to { transform: translateX(-100%); } /* Move images 100% to the left */
+  }
+
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: #f2f2f2;
+  }
+  
+  @keyframes slide {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  
+  .logos {
+    overflow: hidden;
+    padding: 6px 0;
+    background: white;
+    white-space: nowrap;
+    position: relative;
+  }
+  
+  .logos:before,
+  .logos:after {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    height: 100%;
+    content: "";
+    z-index: 2;
+  }
+  
+  /* .logos:before {
+    left: 0;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
+  }
+  
+  .logos:after {
+    right: 0;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
+  } */
+  
+  .logos:hover .logos-slide {
+    animation-play-state: paused;
+  }
+  
+  .logos-slide {
+    display: inline-block;
+    animation: 20s slide infinite linear;
+  }
+  
+  .logos-slide img {
+    height: 50px;
+    margin: 0 40px;
   }
   
   

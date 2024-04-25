@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { ExternalLink } from 'react-external-link';
+import './footer.css'
 
 const FooterPage = () => {
     return(
