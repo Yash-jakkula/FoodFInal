@@ -1,7 +1,5 @@
 import React from "react";
 import './Nav.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import { Link } from "react-router-dom";
 
 const Nav = () => {
