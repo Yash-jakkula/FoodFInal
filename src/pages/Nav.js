@@ -9,7 +9,8 @@ const Nav = () => {
                     
                         <div className="topNav" style={{width:'100%'}}>
                           <div className="logo-div">
-                            <img className="logoimages" src="/l2.jpeg" alt="logo" />
+                          <Link to="/"><img className="logoimages" src="/l2.jpeg" alt="logo" /></Link>
+                            
                           </div>
                             <div class="input-group-prepend ml-5 searchdiv" style={{display:'flex'}}>
                                 <span class="input-group-text" id="basic-addon1"><img className="searchImg" src="/search.svg" /></span>

@@ -10,16 +10,16 @@ const Homepage = () => {
             <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100" src="/i1.jpeg" alt="First slide" />
+      <img class="d-block w-100" src="/S1.jpg" alt="First slide" />
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" style={{height:'500px'}} src="/i2.jpeg" alt="Second slide" />
+      <img class="d-block w-100" src="/S2.jpg" alt="Second slide" />
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" style={{height:'500px'}} src="/i3.jpeg" alt="Third slide" />
+      <img class="d-block w-100" src="/S3.jpg" alt="Third slide" />
     </div>
   </div>
-</div>
+            </div>
             </div>
 <div className="main mt-4" style={{width:'90%'}}>
           
@@ -49,7 +49,8 @@ const Homepage = () => {
             
            
             </div>
-            <div className="row m-4 d-flex justify-content-center">
+            <div className="row m-4 d-flex justify-content-center icons-images-web">
+                
                 <div className="col k-sub-div">
                     <div>
                     <img className="k-image" src="/k1.png" />
@@ -95,6 +96,7 @@ const Homepage = () => {
                     </div>
                 </div>
             </div>
+
             <div className="row d-flex justify-content-center">
                 <img style={{width:'70%',height:'70%'}} src="/Special.png" />
             </div>
@@ -123,11 +125,11 @@ At Nutryfood, excellence is accessible to all, with cost-effective solutions for
                 </div>
             </div>
             <div className="row d-flex justify-content-center" style={{width:'100%'}}>
-                <div className="col-12 d-flex justify-content-center">
+                <div className="col-12 d-flex justify-content-center mb-4">
                 <span style={{fontWeight:'600',fontSize:'20px',color:'#000000'}}>Best Sellers</span>           
                 </div>
                 
-                    <div className="row" style={{width:'90%',display:'flex'}}>
+                    <div className="row dummy">
                        
                     <div className="col-md-3 col-sm-4 col-xs-6">
                         <img className="image-bs" src="/r1.png" />
@@ -147,6 +149,31 @@ At Nutryfood, excellence is accessible to all, with cost-effective solutions for
                         <img className="image-bs" src="/r4.png" />
                     </div>
                     
+                    </div>
+
+                    <div className="outer">
+                    <div className="cont">
+                       
+                    <div className="sub-cont">
+                        <img className="image-bs" src="/r1.png" />
+                    </div>
+                    
+                    <div className="sub-cont">
+                        <img className="image-bs" src="/r2.png" />
+                    </div>
+                    </div>
+                    <div className="cont">
+                    
+                    <div className="sub-cont">
+                        <img className="image-bs" src="/r3.png" />
+                    </div>
+
+                    
+                    <div className="sub-cont">
+                        <img className="image-bs" src="/r4.png" />
+                    </div>
+                    
+                    </div>
                     </div>
                 
             </div>
