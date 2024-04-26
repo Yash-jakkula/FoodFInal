@@ -36,7 +36,7 @@ const FooterPage = () => {
               </div>
               
               <div className="col-12">
-                <span style={{color:'white'}}>Garladinne,Anantapu</span>
+                <span style={{color:'white'}}>Garladinne,Anantapur</span>
               </div>
               
               <div className="col-12">
