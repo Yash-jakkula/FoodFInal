@@ -62,37 +62,37 @@ const Homepage = () => {
                 
                 <div className="col k-sub-div">
                     <div>
-                    <img className="k-image" src="/k1.png" />
+                    <img className="k-image" src="/n1.png" />
                     </div>
                     <div className="text-k-div">
-                    <span className="text-k">Nutritionally superior option</span>
+                    <span className="text-k">Ancient, time-honored methods</span>
                     </div>
                 </div>
                 
                 <div className="col k-sub-div">
                     <div>
-                    <img className="k-image" src="/k1.png" />
+                    <img className="k-image" src="/n2.png" />
                     </div>
                     <div className="text-k-div">
-                    <span className="text-k">Nutritionally superior option</span>
+                    <span className="text-k">No preservatives, pure freshness</span>
                     </div>
                 </div>
                 
                 <div className="col k-sub-div">
                     <div>
-                    <img className="k-image" src="/k1.png" />
+                    <img className="k-image" src="/n3.png" />
                     </div>
                     <div className="text-k-div">
-                    <span className="text-k">Nutritionally superior option</span>
+                    <span className="text-k">Accessible worldwide, everywhere</span>
                     </div>
                 </div>
                 
                 <div className="col k-sub-div">
                     <div>
-                    <img className="k-image" src="/k1.png" />
+                    <img className="k-image" src="/nn4.png" />
                     </div>
                     <div className="text-k-div">
-                    <span className="text-k">Nutritionally superior option</span>
+                    <span className="text-k">Affordable without sacrificing quality</span>
                     </div>
                 </div>
             </div>
