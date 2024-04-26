@@ -162,7 +162,7 @@
       display: none;
     }
     .text-div{
-      margin-right: 28px;
+      margin-left: 68px;
     }
 
     
@@ -222,6 +222,10 @@
   font-size: 10px;
 }
 
+
+.text-div{
+   align-items: flex-end;
+}
 .navp {
     display: block; /* Ensure image is displayed as a block element */
     width: auto; /* Allow the image to adjust its width */
