@@ -9,7 +9,7 @@ const Nav = () => {
                     
                         <div className="topNav" style={{width:'100%'}}>
                           <div className="logo-div">
-                          <Link to="/"><img className="logoimages" src="/l2.jpeg" alt="logo" /></Link>
+                          <Link to="/"><img className="logoimages" src="/kk2.jpeg" alt="logo" /></Link>
                             
                           </div>
                           <div class="input-group-prepend ml-5 searchdiv" style={{ display: 'flex' }}>
@@ -20,7 +20,7 @@ const Nav = () => {
 </div>
 
                            <div className="col-md-4 d-flex justify-content-end" style={{width:'30%'}}>
-                            <img className="logoimages right-image" src="/l1.jpeg" />
+                            <img className="logoimages right-image" src="/kk1.jpeg" />
                             <div>
                             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <img className="icon-menu" src="/menu.png"/>
