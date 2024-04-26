@@ -16,6 +16,8 @@ justify-content: center;
 align-items: center;
 width: 30vw;
 }
+
+
 .order-image img{
   width: 100%; 
     border-radius: 8px;
@@ -40,6 +42,7 @@ display:flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
+width: 100%;
 }
 .form-input{
     display:flex;
@@ -85,18 +88,28 @@ font-style: normal;
 font-weight: 600;
 line-height: normal;
 }
-@media screen and (max-width:770px) {
+@media screen and (max-width:600px) {
     .form-input{
         display: flex;
         flex-direction: column;
+        width: 100%;
+    }
+    .order-image{
+        width: 95%;
     }
     .order-input{
         padding: 20px 57px 20px 16px;
+    }
+    .order-form{
+        width: 80%;
     }
 }
 @media screen and (min-width:771px) and (max-width:1120px) {
     .form-input{
         display: flex;
         flex-direction: column;
+    }
+    .order-image{
+        width: 50%;
     }
 }

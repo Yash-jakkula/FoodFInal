@@ -382,6 +382,9 @@ function OrderPage() {
   
   return (
     <div>
+      <div className="nvimage" style={{backgroundColor:'#004AAD'}}>
+                <img className="navp" src="/demo.png" />
+                </div>
   <div className='order'>
     <div className='order-image' onSubmit={handleSubmit}>
       <img src={selectedData && selectedData.image}></img>

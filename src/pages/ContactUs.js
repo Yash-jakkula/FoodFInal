@@ -23,7 +23,11 @@ const ContactUs = ()=>{
     }
     return(
         <>
-            <div className="row mt-5 d-flex justify-content-center align-items-center">
+        <div>
+            <div className="nvimage" style={{backgroundColor:'#004AAD'}}>
+                <img className="navp" src="/demo.png" />
+                </div>
+            <div className="row mt-3 d-flex justify-content-center align-items-center">
                 <div className="col-md-6 container d-flex justify-content-center">
                     <div style={{width:'80%'}}>
                     <img className="contactusimg" src="/contactus.png" alt="contactusimage" style={{width:"100%",height:'100%',position:'relative'}}/>
@@ -49,7 +53,7 @@ const ContactUs = ()=>{
                         </div>
                     </div>
                 </div>
-            </div>
+            </div></div>
         </>
     )
 }
