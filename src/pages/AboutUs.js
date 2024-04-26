@@ -15,6 +15,9 @@ function Aboutus() {
   return (
     <>
         <div>
+          <div className="nvimage" style={{backgroundColor:'#004AAD'}}>
+                <img className="navp" src="/demo.png" />
+                </div>
           <div className='row d-flex justify-content-center mt-4'>
             <div className='col-md-4 d-flex justify-content-center'>
               <div class="card" style={{width: '80%',borderStyle:'none'}}>

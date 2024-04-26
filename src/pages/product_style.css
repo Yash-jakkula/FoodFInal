@@ -205,7 +205,7 @@ main {
     border: 1px solid rgba(0, 74, 173, 0.40);
     background: #FFF;
     position: relative;
-    overflow-y: hidden;
+    
 }
 .discount-tag {
     position: absolute;
@@ -357,14 +357,12 @@ font-weight: 600;
 line-height: normal;
 }
 
-
+.p-img{
+    width: 100%;
+}
 .product-filter {
     display: flex;
     justify-content: space-around;
-}
-
-.product-butto-1{
-    
 }
 
 .product-button-1.active {
@@ -372,6 +370,16 @@ line-height: normal;
     background-color: #004AAD;
     color:white
 }
+
+.product-btn-des-w{
+    display: block;
+}
+
+.product-btn-des-m{
+    display: none;
+}
+
+
 @media screen and (max-width:600px) {
     .product-box{
         display:flex;
@@ -379,7 +387,21 @@ line-height: normal;
         justify-content: center;
         align-items:center;
     }
-    .product-filter {
+.p-text{
+    margin-left: 5px;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.p-cont{
+    width: 100%;
+}
+
+
+.p-img{
+    width: 100%;
+}
+.product-filter {
         flex-direction: row;
         justify-content: center;
         align-items: center;
@@ -393,13 +415,19 @@ line-height: normal;
     }
     .btn-des {
         display: flex;
-        flex-direction:column;
+        flex-direction:row;
         justify-content: center;
         align-items: center;
         
     }
+    .product-btn-icon{
+        width: 10px;
+    }
     .filters-btn{
         width:10rem;
+    }
+    .product-more-filter{
+        display: flex;
     }
     .filters-products {
        
@@ -410,9 +438,20 @@ line-height: normal;
         align-items: center;
         /* margin-left: -1.4rem; */
     }
-    .product-btn-des{
-        font-size:1rem
+    .p-cont{
+        display: flex;
+        flex-direction: column;
     }
+    .product-btn-des{
+        font-size:10px
+    }
+    .product-btn-des-w{
+        display: none;
+    }
+    .prod-btn-des-m{
+        display: block;
+    }
+    
     .prod-display{
         display:flex;
         flex-direction: column;
@@ -420,6 +459,7 @@ line-height: normal;
         align-items: center;
     }
 } 
+
     
 @media screen and (min-width:771px) and (max-width:1120px) {
     .product-box{
@@ -441,7 +481,7 @@ line-height: normal;
    
     .btn-des {
         display: flex;
-        flex-direction:column;
+        flex-direction:row;
         justify-content: center;
         align-items: center;
         
