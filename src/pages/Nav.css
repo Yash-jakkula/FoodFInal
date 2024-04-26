@@ -15,6 +15,33 @@
     display: none;
   }
 
+  .searchdiv {
+    position: relative;
+}
+
+.prepend-icon {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    padding: 0 10px; /* Adjust padding as needed */
+    background-color: #e9ecef; /* Background color of the icon container */
+    border: 1px solid #ced4da; /* Border color */
+    border-radius: 4px 0 0 4px; /* Rounded corners */
+}
+
+.searchbar {
+    /* Ensure the input fills the remaining width */
+    flex: 1;
+    border-radius: 0 4px 4px 0; /* Match the border radius of the input */
+}
+.searchImg{
+  width: 20px;
+}
+
+
 @media screen and (max-width:600px) {
     .right-image{
         display: none;

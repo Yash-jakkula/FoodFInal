@@ -12,10 +12,13 @@ const Nav = () => {
                           <Link to="/"><img className="logoimages" src="/l2.jpeg" alt="logo" /></Link>
                             
                           </div>
-                            <div class="input-group-prepend ml-5 searchdiv" style={{display:'flex'}}>
-                                <span class="input-group-text" id="basic-addon1"><img className="searchImg" src="/search.svg" /></span>
-                                <input type="text" class="form-control searchbar" placeholder="Search" aria-label="Username" aria-describedby="basic-addon1" /> 
-                           </div>
+                          <div class="input-group-prepend ml-5 searchdiv" style={{ display: 'flex' }}>
+    <div class="input-group-text prepend-icon">
+        <img class="searchImg" src="/search.svg" alt="Search Icon" />
+    </div>
+    <input type="text" style={{paddingLeft:'50px'}} class="form-control searchbar" placeholder="Search" aria-label="Search" aria-describedby="basic-addon1" />
+</div>
+
                            <div className="col-md-4 d-flex justify-content-end" style={{width:'30%'}}>
                             <img className="logoimages right-image" src="/l1.jpeg" />
                             <div>

@@ -161,6 +161,9 @@
     .dummy{
       display: none;
     }
+    .text-div{
+      margin-right: 28px;
+    }
 
     
     
@@ -203,7 +206,8 @@
     height: 30%; /* Ensure div fills its parent height */
     overflow: hidden; /* Hide any overflow content */
     background-color: #004AAD; /* Optional: Set background color */
-}
+    
+  }
 .image-bs{
     margin-top: 20px;
     margin-bottom: 10px;
@@ -222,7 +226,7 @@
     display: block; /* Ensure image is displayed as a block element */
     width: auto; /* Allow the image to adjust its width */
     height: auto; /* Allow the image to adjust its height */
-    max-width: 100%; /* Limit image width to fit within parent */
+    max-width: 95%; /* Limit image width to fit within parent */
     max-height: 100%; /* Limit image height to fit within parent */
 }
 .text-sub-2{
