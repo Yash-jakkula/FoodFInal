@@ -105,7 +105,7 @@ const Homepage = () => {
                     <span style={{fontWeight:'600',fontSize:'20px',color:'#000000'}}>Who We Are?</span>
                 </div>
                 <div className="row">
-                <div className="col-md-6 d-flex justify-content-center">
+                <div className="col-md-6 d-flex justify-content-center whoimg">
                     <img style={{width:'80%',height:'80%'}} src="/WWA 1.jpg" />
                 </div>
                 <div className="col-md-6 who-text-div">
@@ -131,22 +131,34 @@ At Nutryfood, excellence is accessible to all, with cost-effective solutions for
                 
                     <div className="row dummy">
                        
-                    <div className="col-md-3 col-sm-4 col-xs-6">
-                        <img className="image-bs" src="/r1.png" />
+                    <div className="col-md-3 col-sm-4 col-xs-6 d-flex justify-content-center">
+                        <div className="d-flex flex-column p-m" style={{width:"300px",height:'300px'}}>
+                        <img className="img" src="/id1.png" />
+                        <span className="p-t">Idly Powder</span>
+                        </div>
                     </div>
                     
-                    <div className="col-md-3 col-sm-4 col-xs-6">
-                        <img className="image-bs" src="/r2.png" />
+                    <div className="col-md-3 col-sm-4 col-xs-6 d-flex justify-content-center">
+                    <div className="d-flex flex-column p-m" style={{width:"300px",height:'300px'}}>
+                        <img className="img" src="/id2.png" />
+                        <span className="p-t">Dosa Powder</span>
+                        </div>
                     </div>
                     
                     
-                    <div className="col-md-3 col-sm-4 col-xs-6">
-                        <img className="image-bs" src="/r3.png" />
+                    <div className="col-md-3 col-sm-4 col-xs-6 d-flex justify-content-center">
+                    <div className="d-flex flex-column p-m" style={{width:"300px",height:'300px'}}>
+                        <img className="img" src="/id3.png" />
+                        <span className="p-t">Millet Idly Powder</span>
+                        </div>
                     </div>
 
                     
-                    <div className="col-md-3 col-sm-4 col-xs-6">
-                        <img className="image-bs" src="/r4.png" />
+                    <div className="col-md-3 col-sm-4 col-xs-6 d-flex justify-content-center">
+                    <div className="d-flex flex-column p-m" style={{width:"300px",height:'300px'}}>
+                        <img className="img" src="/id4.png" />
+                        <span className="p-t">Millet Dosa Powder</span>
+                        </div>
                     </div>
                     
                     </div>
@@ -155,31 +167,41 @@ At Nutryfood, excellence is accessible to all, with cost-effective solutions for
                     <div className="cont">
                        
                     <div className="sub-cont">
-                        <img className="image-bs" src="/r1.png" />
+                    <div className="d-flex flex-column p-m" style={{width:"150px"}}>
+                        <img className="img" src="/id1.png" />
+                        <span className="p-t">Idly Powder</span>
+                        </div>
                     </div>
                     
                     <div className="sub-cont">
-                        <img className="image-bs" src="/r2.png" />
+                    <div className="d-flex flex-column p-m" style={{width:"150px"}}>
+                        <img className="img" src="/id2.png" />
+                        <span className="p-t">Dosa Powder</span>
+                        </div>
                     </div>
                     </div>
                     <div className="cont">
-                    
+                       
                     <div className="sub-cont">
-                        <img className="image-bs" src="/r3.png" />
-                    </div>
-
-                    
-                    <div className="sub-cont">
-                        <img className="image-bs" src="/r4.png" />
+                    <div className="d-flex flex-column p-m" style={{width:"150px"}}>
+                        <img className="img" src="/id1.png" />
+                        <span className="p-t">Idly Powder</span>
+                        </div>
                     </div>
                     
+                    <div className="sub-cont">
+                    <div className="d-flex flex-column p-m" style={{width:"150px"}}>
+                        <img className="img" src="/id2.png" />
+                        <span className="p-t">Dosa Powder</span>
+                        </div>
+                    </div>
                     </div>
                     </div>
                 
             </div>
-            <div className="row">
-                <div className="col-12 d-flex justify-content-center m-4">
-                <span style={{fontWeight:'600',fontSize:'20px',color:'#000000'}}>Certifications</span>
+            <div className="row mt-5">
+                <div className="col-12 d-flex justify-content-center mb-4">
+                <span style={{fontWeight:'600',fontSize:'26px',color:'#000000'}}>Certifications</span>
                 </div>
                 
                 <div className="logos">

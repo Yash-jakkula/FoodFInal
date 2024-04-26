@@ -646,7 +646,7 @@ function ProductPage() {
                                 <div className='prod-card' >
                                     <div className='discount-tag'>10% Off</div>
                                     <div className='prod-card-image'>
-                                        <img style={300} src={product.image} alt={product.productName}></img>
+                                        <img width={300} src={product.image} alt={product.productName}></img>
                                     </div>
                                     <div className='prod-card-title'>{product.productName}</div>
                                     <Link to={{

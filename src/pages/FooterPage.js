@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { ExternalLink } from 'react-external-link';
-import './footer.css'
+import './Footer.css'
 
 const FooterPage = () => {
     return(
@@ -13,20 +13,40 @@ const FooterPage = () => {
                 </div>
             </div>
             <div className="row">
-              <div className="col-12">
+              <div className="col-12" style={{display:'flex',flexDirection:'column',justifyContent:'flex-start'}}>
                 <div style={{display:'flex',flexDirection:'row',alignItems:'center'}}>
-                <img src="/whatsapp.png" style={{width:'50px',height:'50px'}}/>
-                <p style={{color:'white',fontSize:'20px'}}>+91 9392587332</p>
+                <img src="/phone.png" style={{width:'30px',height:'30px',marginRight:'10px'}}/>
+                <p className="footerText" style={{color:'white'}}>+91 9392587332</p>
                 </div>
                 <div style={{display:'flex',flexDirection:'row',alignItems:'center'}}>
-                <img src="/email.jpg" style={{width:'30px',height:'30px',borderRadius:'50px',marginRight:'10px'}}/>
-               <p style={{color:'white',fontSize:'20px'}}>contact@Nutryfood.com</p>
+                <img src="/mail.png" style={{width:'30px',height:'30px',marginRight:'10px'}}/>
+                <p className="footerText" style={{color:'white'}}>contact@Nutryfood.com</p>
                 </div>
               </div>
             </div>
+
+            <div className="row d-flex gap-3 mt-3">
+              <div className="col-12">
+                <span style={{color:'white'}}>Our address:</span>
+              </div>
+              <div className="col-12">
+                <span style={{color:'white'}}>Regis EXIM CC</span>
+              </div>
+              <div className="col-12">
+                <span style={{color:'white'}}>Near Sudheer Kaata</span>
+              </div>
+              
+              <div className="col-12">
+                <span style={{color:'white'}}>Garladinne,Anantapu</span>
+              </div>
+              
+              <div className="col-12">
+                <span style={{color:'white'}}>Andhra Pradesh,515731</span>
+              </div>
+            </div>
             <div className="row mt-3">
-            <ul className="d-flex mb-4" style={{listStyle:'none',gap:'20px'}}>
-        <li className="nav-item">
+            <ul className="d-flex mb-4 links" style={{listStyle:'none',justifyContent:'flex-start'}}>
+        <li className="nav-item d-flex">
           <Link className="text-white nav-link" to="/">Home</Link>
         </li>
         <li className="nav-item">

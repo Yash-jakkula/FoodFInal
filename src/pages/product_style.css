@@ -372,7 +372,7 @@ line-height: normal;
     background-color: #004AAD;
     color:white
 }
-@media screen and (max-width:770px) {
+@media screen and (max-width:600px) {
     .product-box{
         display:flex;
         flex-direction: column;
@@ -380,21 +380,23 @@ line-height: normal;
         align-items:center;
     }
     .product-filter {
-        flex-direction: column;
+        flex-direction: row;
         justify-content: center;
         align-items: center;
+        object-fit: contain;
+        
         /* flex-wrap:wrap; */
     }
     .product-button-1 {
-      
-        width: 61%;
+        
+        width: 10%;
     }
     .btn-des {
         display: flex;
         flex-direction:column;
         justify-content: center;
         align-items: center;
-        gap: 0.5rem;
+        
     }
     .filters-btn{
         width:10rem;
@@ -422,7 +424,7 @@ line-height: normal;
 @media screen and (min-width:771px) and (max-width:1120px) {
     .product-box{
         display:flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: center;
         align-items:center;
     }
@@ -442,7 +444,7 @@ line-height: normal;
         flex-direction:column;
         justify-content: center;
         align-items: center;
-        gap: 0.5rem;
+        
     }
     .filters-btn{
         /* width:10rem; */

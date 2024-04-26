@@ -2,8 +2,16 @@
     
 }
 
+.footerText{
+   color:'white';
+   font-size:'20px'; 
+}
+
+
 @media screen and (max-width:600px) {
     .text-white{
         font-size: 10px;
     }
+
+  
 }
