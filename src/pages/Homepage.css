@@ -256,9 +256,10 @@
     display: flex;
    
  /* Align children to the right */
-    align-items: flex-end; /* Align children to start from the top */
+    align-items: center; /* Align children to start from the top */
     flex-direction: column;
     margin-bottom: 20px;
+    
 }
 
 .text-sub-1
