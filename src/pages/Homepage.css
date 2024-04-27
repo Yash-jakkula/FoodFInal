@@ -108,6 +108,10 @@
 
 }
 
+.f-ic{
+  margin: 0;
+}
+
 .links{
   list-style: none;
   justify-content: flex-start;
@@ -152,6 +156,11 @@
  }    
   .footer-main{
     width: 100%;
+  }
+
+  .f-ic{
+    margin: 0;
+    padding: 0;
   }
   .mobile{
         display: flex;

@@ -27,7 +27,7 @@ const FooterPage = () => {
 
             <div className="row mb-4 d-flex align-items-center">
         <div className="row">
-        <div className="col-md-6 d-flex gap-2 mb-3" style={{margin:0}}>
+        <div className="col-md-6 d-flex gap-2 mb-3 f-ic">
           
         <a href='https://www.linkedin.com/company/nutryfood'>
             <img className="component-38-icon" alt="" src="/component-38.svg" /></a>
@@ -100,9 +100,12 @@ const FooterPage = () => {
 
             </div>
             </div>
+            <div className="row mt-3 d-flex justify-content-center">
+            <span style={{fontWeight:'600',fontSize:'16px',color:'white',textAlign:'center'}}>© 2024, NutryFood. All rights reserved.</span>
+         
+            </div>
           </div>
-          {/* <span style={{fontWeight:'600',fontSize:'16px',color:'white'}}>© 2024, NutryFood. All rights reserved.</span>
-         */}
+          
         </>
     )
 }
