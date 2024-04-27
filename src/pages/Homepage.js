@@ -13,7 +13,7 @@ const Homepage = () => {
       <img class="d-block w-100" src="/S1.jpg" alt="First slide" />
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="/S2.jpg" alt="Second slide" />
+      <img class="d-block w-100" src="/chef.png" alt="Second slide" />
     </div>
     <div class="carousel-item">
       <img class="d-block w-100" src="/S3.jpg" alt="Third slide" />

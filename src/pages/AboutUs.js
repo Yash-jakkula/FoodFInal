@@ -20,7 +20,7 @@ function Aboutus() {
                 </div>
           <div className='row d-flex justify-content-center mt-4'>
             <div className='col-md-4 d-flex justify-content-center'>
-              <div class="card" style={{width: '80%',borderStyle:'none'}}>
+              <div class="card" style={{width: '90%',borderStyle:'none'}}>
    <img className="card-img-top" src="/API 1.jpg" alt="Card image cap" /> 
   <div class="card-body">
     <h5 class="card-title">Standing Foundation</h5>
@@ -35,7 +35,7 @@ people through “Our NutryFood Industries. </p>
             </div>
 
             <div className='col-md-4 d-flex justify-content-center'>
-              <div class="card" style={{width: '80%',borderStyle:'none'}}>
+              <div class="card" style={{width: '90%',borderStyle:'none'}}>
    <img className="card-img-top" src="/API 2.jpg" alt="Card image cap" /> 
   <div class="card-body">
     <h5 class="card-title">Branching Principles</h5>
@@ -47,7 +47,7 @@ benefits and our loved ones touch</p>
             </div>
 
             <div className='col-md-4 d-flex justify-content-center'>
-              <div class="card" style={{width: '80%',borderStyle:'none'}}>
+              <div class="card" style={{width: '90%',borderStyle:'none'}}>
    <img className="card-img-top" src="/API 3.jpg" style={{borderRadius:'10px'}} alt="Card image cap" /> 
   <div class="card-body">
     <h5 class="card-title">Fruitful Results</h5>
@@ -57,21 +57,23 @@ benefits and our loved ones touch</p>
 </div>
             </div>
 
-          </div>         
+          </div>
+
+                 
           <div className='container-fluid'>
             
             <div className='col-12 d-flex justify-content-center'>
               <span style={{color:'#000000',fontWeight:'600',fontSize:'20px'}}>Our journey</span>
             </div>
             <div className='col-12 d-flex justify-content-center mt-4'>
-                <span className='journeyText'>At the heart of Nutryfood's success is our strong focus on making food better through lots of testing and improving. We've made cooking much quicker and easier, turning long tasks into short ones, so you can spend less time in the kitchen. At Nutryfood, we're all
-                   about making cooking effortless, where every dish is made with care and tastes amazing.</span>
+                <span className='journeyText'>At the heart of Nutryfood's success lies our unwavering commitment to supreme Research and Development. Through tireless innovation, we've transformed what was once a laborious one-day process into a swift one-minute task, revolutionising kitchen efficiency and making cooking a breeze. Effortless Cooking truly begins with Nutryfood, where the perfect blend of convenience and high quality ensures that every dish we prepare is a culinary masterpiece.</span>
             </div>
             <div className='col-12 d-flex justify-content-center mt-4'>
-                <span className='journeyText'>We're really proud of what we do. Every bite you take shows how much we care about making food taste great. Nutryfood is all about bringing together new ideas with old ones to make food that's both tasty and good for you.</span>
+                <span className='journeyText'>We take immense pride in our mission of Redefining Taste Through Research Excellence. With each bite, you'll experience the culmination of our dedication to perfection, as we continuously strive to elevate the culinary landscape. Nutryfood serves as the intersection Where Research Meets Nourishment, harmonizing cutting-edge innovation with the rich tapestry of traditional Indian flavors.
+Our vision extends far beyond borders, as we aim to bring the authentic taste of Indian cuisine to tables worldwide. Rest assured, there is No Compromise in Nutrition, Quality, or Taste with Nutryfood. Our solutions are meticulously crafted to uphold the highest standards, ensuring that every dining experience is nothing short of exceptional.</span>
             </div>
             <div className='col-12 d-flex justify-content-center mt-4'>
-                <span className='journeyText'>We want everyone to enjoy the flavors of Indian food, no matter where they are. And we promise that when you choose Nutryfood, you're getting food that's good for you and tastes great. Plus, our solutions won't break the bank, so everyone can enjoy delicious meals. Come join us on this journey of tasty food and new ideas!</span>
+                <span className='journeyText'>Moreover, our commitment to excellence doesn't come with a hefty price tag. Nutryfood is proud to offer Cost-Effective solutions, making culinary greatness accessible to all. Join us on a journey where culinary creativity meets innovation, promising an unparalleled dining experience that celebrates the artistry of food and the dedication of NutryFood's R&D team.</span>
             </div>
           </div>
 
@@ -80,7 +82,7 @@ benefits and our loved ones touch</p>
               <img style={{width:'75%',height:'90%'}} src='/mission.png' />
             </div>
             <div className='col-md-6 d-flex justify-content-center'>
-              <img style={{width:'75%',height:'90%'}} src='/vision.png' />
+              <img style={{width:'75%',height:'90%'}} src='/vis.png' />
             </div>
           </div>
 

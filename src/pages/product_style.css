@@ -200,13 +200,7 @@ main {
     margin-bottom: 3rem;
 }
 
-.prod-card {
-    border-radius: 0.75rem;
-    border: 1px solid rgba(0, 74, 173, 0.40);
-    background: #FFF;
-    position: relative;
-    
-}
+
 .discount-tag {
     position: absolute;
     top: 0;
@@ -288,14 +282,10 @@ main {
     border-radius:0.5rem;
 }
 .prod-display{
-    margin-top: 3rem;
-    margin-left: 4rem;
-    margin-right: 4rem;
-    display:flex;
-    align-items:center;
-    justify-content:space-between;
-    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
 }
+
 .prod-display-1{
    
 margin-bottom: 3rem; 
@@ -375,6 +365,7 @@ line-height: normal;
     display: block;
 }
 
+
 .product-btn-des-m{
     display: none;
 }
@@ -393,6 +384,37 @@ line-height: normal;
     font-weight: 600;
 }
 
+.prod-d{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.buynow-btn{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top:10px;
+    padding: 10px;
+}
+
+.prod-card-title{
+    color: rgba(0, 0, 0, 0.85);
+    font-family: Montserrat;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.prod-card{
+    padding: 5px;
+}
+.prod-card-main{
+    padding: 5px;
+}
 .p-cont{
     width: 100%;
 }
@@ -504,7 +526,7 @@ line-height: normal;
         display:flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
+        align-items: flex-start;
     }
 } 
     

@@ -356,9 +356,9 @@ function ProductPage() {
 
   let activeName
   if (activeTab === "breakfast") {
-      activeName = "Chutney"
+      activeName = "Mix Powders"
   } else if (activeTab === "biryani") {
-      activeName = "veg masala"
+      activeName = "non-veg masala"
   } else {
       activeName = "cook"
   }
@@ -402,21 +402,29 @@ function ProductPage() {
                                 <span className='p-text'>Tea</span>
                     </button>
   </div>
-  <div className='product-more-filter'>
-    <div className='filters-products'>
-    {activeTab === "breakfast" && <div className='filters-products'>
+  <div className='prod-more-filter' style={{display:'flex',justifyContent:'center'}}>
+    <div className='row mt-4'>
+    {activeTab === "breakfast" && <div className='prod-d' style={{display:'flex',gap:'10px',marginBottom:'2rem'}}>
+      <div>
                         <button className={`filters-btn ${activeFilter === 'mix' ? 'active' : ''}`} onClick={() => handleFilterClick('Mix Powders')}>
                             Mix Powders
                         </button>
+                        </div>
+                        <div>
                         <button className={`filters-btn ${activeFilter === 'cook' ? 'active' : ''}`} onClick={() => handleFilterClick('cook')}>
                             Cook Powders
                         </button>
+                        </div>
+                        <div>
                         <button className={`filters-btn ${activeFilter === 'chutney' ? 'active' : ''}`} onClick={() => handleFilterClick('Chutney')}>
                             Chutney
                         </button>
+                        </div>
+                        <div>
                         <button className={`filters-btn ${activeFilter === 'sambhar' ? 'active' : ''}`} onClick={() => handleFilterClick('Sambar')}>
                             Sambhar
                         </button>
+                        </div>
                     </div>}
 
                     {activeTab === "biryani" && <div className='filters-products'>
@@ -458,7 +466,7 @@ function ProductPage() {
     {activeTab === "breakfast" && activeFilter === "cook" && data.breakfastCookPowders.map((product) => {
                         const dataToSend = { id: product.sno }
                         return (
-                            <div key={product.id} className='col-md-4 mb-2' style={{ position: 'relative' }}>
+                            <div key={product.id} className='col-md-4 col-sm-6 col-xs-6 col-6 mb-2 prod-card-main' style={{ position: 'relative' }}>
                                 <div className='prod-card' >
                                     <div className='discount-tag'>10% Off</div>
                                     <img src={product.image} className='p-img' alt={product.productName}></img>
@@ -482,7 +490,7 @@ function ProductPage() {
                     {activeTab === "breakfast" && activeFilter === "Mix Powders" && data.breakfastMixPowders.map((product) => {
                         const dataToSend = { id: product.sno }
                         return (
-                            <div key={product.id} className='col-md-4 mb-2' style={{ position: 'relative' }}>
+                            <div key={product.id} className='col-md-4 col-sm-6 col-xs-6 col-6 mb-2 prod-card-main' style={{ position: 'relative' }}>
                                 <div className='prod-card' >
                                     <div className='discount-tag'>10% Off</div>
                                     <img src={product.image} className='p-img' alt={product.productName}></img>
@@ -506,7 +514,7 @@ function ProductPage() {
                     {activeTab === "breakfast" && activeFilter === "Chutney" && data.breakfastChutneys.map((product) => {
                         const dataToSend = { id: product.sno }
                         return (
-                            <div key={product.id} className='col-md-4 mb-2' style={{ position: 'relative' }}>
+                            <div key={product.id} className='col-md-4 col-sm-6 col-xs-6 col-6 mb-2 prod-card-main' style={{ position: 'relative' }}>
                                 <div className='prod-card' >
                                     <div className='discount-tag'>10% Off</div>
                                     <img src={product.image} className='p-img' alt={product.productName}></img>
@@ -530,7 +538,7 @@ function ProductPage() {
                     {activeTab === "breakfast" && activeFilter === "Sambar" && data.breakfastSambars.map((product) => {
                         const dataToSend = { id: product.sno }
                         return (
-                            <div key={product.id} className='col-md-4 mb-2' style={{ position: 'relative' }}>
+                            <div key={product.id} className='col-md-4 col-sm-6 col-xs-6 col-6 mb-2 prod-card-main' style={{ position: 'relative' }}>
                                 <div className='prod-card' >
                                     <div className='discount-tag'>10% Off</div>
                                     <img src={product.image} className='p-img' alt={product.productName}></img>
@@ -555,10 +563,10 @@ function ProductPage() {
                         const dataToSend = { id: product.sno }
                         console.log(dataToSend, "datatpsend")
                         return (
-                            <div key={product.id} className='col-md-4 mb-2' style={{ position: 'relative' }}>
+                            <div key={product.id} className='col-md-4 col-sm-6 col-xs-6 col-6 mb-2 prod-card-main' style={{ position: 'relative' }}>
                                 <div className='prod-card' >
                                     <div className='discount-tag'>10% Off</div>
-                                    <div className='prod-card-image'>
+                                    <div >
                                         <img src={product.image} className='p-img' alt={product.productName}></img>
                                     </div>
                                     <div className='prod-card-title'>{product.productName}</div>
@@ -581,10 +589,10 @@ function ProductPage() {
                         const dataToSend = { id: product.sno }
                         console.log(dataToSend, "datatpsend")
                         return (
-                            <div key={product.id} className='col-md-4 mb-2' style={{ position: 'relative' }}>
+                            <div key={product.id} className='col-md-4 col-sm-6 col-xs-6 col-6 mb-2 prod-card-main' style={{ position: 'relative' }}>
                                 <div className='prod-card' >
                                     <div className='discount-tag'>10% Off</div>
-                                    <div className='prod-card-image'>
+                                    <div >
                                         <img className='p-img' src={product.image} alt={product.productName}></img>
                                     </div>
                                     <div className='prod-card-title'>{product.productName}</div>
@@ -608,10 +616,10 @@ function ProductPage() {
                         const dataToSend = { id: product.sno }
                         console.log(dataToSend, "datatpsend")
                         return (
-                            <div key={product.id} className='col-md-4 mb-2' style={{ position: 'relative' }}>
+                            <div key={product.id} className='col-md-4 col-sm-6 col-xs-6 col-6 mb-2 prod-card-main' style={{ position: 'relative' }}>
                                 <div className='prod-card' >
                                     <div className='discount-tag'>10% Off</div>
-                                    <div className='prod-card-image'>
+                                    <div >
                                         <img className='p-img' src={product.image} alt={product.productName}></img>
                                     </div>
                                     <div className='prod-card-title'>{product.productName}</div>
@@ -633,10 +641,10 @@ function ProductPage() {
                         const dataToSend = { id: product.sno }
                         console.log(dataToSend, "datatpsend")
                         return (
-                            <div key={product.id} className='col-md-4 mb-2' style={{ position: 'relative' }}>
+                            <div key={product.id} className='col-md-4 col-sm-6 col-xs-6 col-6 mb-2 prod-card-main' style={{ position: 'relative' }}>
                                 <div className='prod-card' >
                                     <div className='discount-tag'>10% Off</div>
-                                    <div className='prod-card-image'>
+                                    <div >
                                         <img className='p-img' src={product.image} alt={product.productName}></img>
                                     </div>
                                     <div className='prod-card-title'>{product.productName}</div>
@@ -658,10 +666,10 @@ function ProductPage() {
                         const dataToSend = { id: product.sno }
                         console.log(dataToSend, "datatpsend")
                         return (
-                            <div key={product.id} className='col-md-4 mb-2' style={{ position: 'relative' }}>
+                            <div key={product.id} className='col-md-4 col-sm-6 col-xs-6 col-6 mb-2 prod-card-main' style={{ position: 'relative' }}>
                                 <div className='prod-card' >
                                     <div className='discount-tag'>10% Off</div>
-                                    <div className='prod-card-image'>
+                                    <div >
                                         <img className='p-img' src={product.image} alt={product.productName}></img>
                                     </div>
                                     <div className='prod-card-title'>{product.productName}</div>
