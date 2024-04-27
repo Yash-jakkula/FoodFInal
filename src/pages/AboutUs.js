@@ -133,7 +133,7 @@ Our vision extends far beyond borders, as we aim to bring the authentic taste of
           </div>
 
           <div className='row'>
-          <div className='col-12 d-flex justify-content-center mb-5'>
+          <div className='col-12 d-flex justify-content-center mb-2 mt-2'>
             <p class="card-title" style={{fontWeight:'700',fontSize:'20px'}}>Founders</p>
           </div>
             <div className='col-12 d-flex justify-content-center'>
