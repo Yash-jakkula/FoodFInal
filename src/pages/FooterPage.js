@@ -27,7 +27,7 @@ const FooterPage = () => {
 
             <div className="row mb-4 d-flex align-items-center">
         <div className="row">
-        <div className="col-md-6 d-flex gap-2 mb-3" style={{margin:0,padding:0}}>
+        <div className="col-md-6 d-flex gap-2 mb-3" style={{margin:0}}>
           
         <a href='https://www.linkedin.com/company/nutryfood'>
             <img className="component-38-icon" alt="" src="/component-38.svg" /></a>
@@ -56,11 +56,11 @@ const FooterPage = () => {
             </div>
             <div className="col-md-6 d-flex flex-column footer-address" >
           <div className="row">
-              <div className="col-12" style={{display:'flex',margin:0,padding:0,flexDirection:'column',justifyContent:'flex-start'}}>
+              <div className="col-12" style={{display:'flex',margin:0,padding:0,flexDirection:'column',justifyContent:'flex-start',gap:'10px'}}>
                 
                 <div style={{display:'flex',flexDirection:'row',alignItems:'center'}}>
                   <div>
-                <img src="/phone.png" className="footer-icon"/>
+                <img src="/p.png" className="footer-icon"/>
                 </div>
                 <div>
                 <p className="footerText" style={{color:'white'}}>+91 9392587332</p>
@@ -68,7 +68,7 @@ const FooterPage = () => {
                 </div>
                 <div style={{display:'flex',flexDirection:'row',alignItems:'center'}}>
                   <div>
-                <img src="/mail.png" className="footer-icon"/>
+                <img src="/m.png" className="footer-icon"/>
                 </div>
                 <div>
                 <p className="footerText" style={{color:'white'}}>contact@Nutryfood.com</p>
