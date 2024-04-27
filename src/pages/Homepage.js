@@ -102,7 +102,7 @@ const Homepage = () => {
             </div>
             <div className="row mt-5">
                 <div className="col-12 d-flex justify-content-center mb-3" >
-                    <span style={{fontWeight:'600',fontSize:'20px',color:'#000000'}}>Who We Are?</span>
+                    <span style={{fontWeight:'700',fontSize:'20px',color:'#000000'}}>Who We Are?</span>
                 </div>
                 <div className="row">
                 <div className="col-md-6 d-flex justify-content-center whoimg">
@@ -126,7 +126,7 @@ At Nutryfood, excellence is accessible to all, with cost-effective solutions for
             </div>
             <div className="row d-flex justify-content-center" style={{width:'100%'}}>
                 <div className="col-12 d-flex justify-content-center mb-4">
-                <span style={{fontWeight:'600',fontSize:'20px',color:'#000000'}}>Best Sellers</span>           
+                <span style={{fontWeight:'700',fontSize:'20px',color:'#000000'}}>Best Sellers</span>           
                 </div>
                 
                     <div className="row dummy">

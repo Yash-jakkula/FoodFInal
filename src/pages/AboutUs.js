@@ -63,7 +63,7 @@ benefits and our loved ones touch</p>
           <div className='container-fluid'>
             
             <div className='col-12 d-flex justify-content-center'>
-              <span style={{color:'#000000',fontWeight:'600',fontSize:'20px'}}>Our journey</span>
+              <span style={{color:'#000000',fontWeight:'700',fontSize:'20px'}}>Our journey</span>
             </div>
             <div className='col-12 d-flex justify-content-center mt-4'>
                 <span className='journeyText'>At the heart of Nutryfood's success lies our unwavering commitment to supreme Research and Development. Through tireless innovation, we've transformed what was once a laborious one-day process into a swift one-minute task, revolutionising kitchen efficiency and making cooking a breeze. Effortless Cooking truly begins with Nutryfood, where the perfect blend of convenience and high quality ensures that every dish we prepare is a culinary masterpiece.</span>
@@ -88,7 +88,7 @@ Our vision extends far beyond borders, as we aim to bring the authentic taste of
 
           <div className='row d-flex justify-content-center'>
             <div className='col-12 d-flex justify-content-center mt-5'>
-              <span style={{fontWeight:'600',fontSize:'20px',color:'#000000'}}>Core Values</span>
+              <span style={{fontWeight:'700',fontSize:'20px',color:'#000000'}}>Core Values</span>
             </div>
             <div className='row mt-4 w-c' style={{width:'80%'}}>
             <div className='col-md-4 center-div'>
@@ -134,14 +134,14 @@ Our vision extends far beyond borders, as we aim to bring the authentic taste of
 
           <div className='row'>
           <div className='col-12 d-flex justify-content-center mb-5'>
-            <p class="card-title" style={{fontWeight:'600',fontSize:'20px'}}>Founders</p>
+            <p class="card-title" style={{fontWeight:'700',fontSize:'20px'}}>Founders</p>
           </div>
             <div className='col-12 d-flex justify-content-center'>
             <div class="row d-flex flex-direction-row" style={{width:'80%'}}>
               <div className='col-md-6 f1'>
-  <img class="card-img-top" src="/f1.png" alt="Card image cap" style={{height:'100%',width:'100%'}}/>
+  <img class="card-img-top" src="/f1.png" alt="Card image cap" style={{height:'100%',width:'100%',marginBottom:'10px'}}/>
   </div>
-  <div class="col-md-6">
+  <div class="col-md-6 mt-2">
     <h5 class="card-title card-text-div">Nanda Kishore Reddy<span className='span-text-div'>Co-Founder</span></h5>
 
     <p class="card-text card-sub-text"> Nanda Kishore Reddy,
@@ -169,7 +169,7 @@ Our vision extends far beyond borders, as we aim to bring the authentic taste of
               <div className='col-md-6 f1'>
   <img class="card-img-top" src="/f2.png" alt="Card image cap" style={{height:'100%',width:'100%'}}/>
   </div>
-  <div class="col-md-6">
+  <div class="col-md-6 mt-2">
     <h5 class="card-title card-text-div">Dr. Yalaka Nandini<span className='span-text-div'>Co-Founder</span></h5>
 
     <p class="card-text card-sub-text">"With a decade of experience in Agricultural Engineering Research, Dr. Yalaka Nandini has pioneered various farming technologies for both small and large-scale farmers. Her deep-rooted understanding of food's importance led her to believe that it's pivotal for human health and prosperity. Motivated by this belief and a desire to offer high-quality, nutritious food with traditional values to those purchasing and consuming food products, she founded Nutry Food. Dr. Nandini ensures quality standards and oversees overseas the company."</p>
