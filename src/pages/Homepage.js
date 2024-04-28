@@ -168,15 +168,15 @@ At Nutryfood, excellence is accessible to all, with cost-effective solutions for
                        
                     <div className="sub-cont">
                     <div className="d-flex flex-column p-m" style={{width:"150px"}}>
-                        <img style={{height:'127px'}} src="/id1.png" />
-                        <span className="p-t">Idly Powder</span>
+                        <img style={{height:'100px'}} src="/id1.png" />
+                        <span className="p-t" style={{fontSize:'16px'}}>Idly Powder</span>
                         </div>
                     </div>
                     
                     <div className="sub-cont">
                     <div className="d-flex flex-column p-m" style={{width:"150px"}}>
-                        <img style={{height:'125px'}} src="/id2.png" />
-                        <span className="p-t">Dosa Powder</span>
+                        <img style={{height:'100px'}} src="/id2.png" />
+                        <span className="p-t" style={{fontSize:'16px'}}>Dosa Powder</span>
                         </div>
                     </div>
                     </div>
@@ -185,14 +185,14 @@ At Nutryfood, excellence is accessible to all, with cost-effective solutions for
                     <div className="sub-cont">
                     <div className="d-flex flex-column p-m" style={{width:"150px"}}>
                         <img style={{height:'100px'}} src="/id3.png" />
-                        <span className="p-t ml-4">Millet Idly Powder</span>
+                        <span className="p-t" style={{fontSize:'16px'}}>Millet Idly Powder</span>
                         </div>
                     </div>
                     
                     <div className="sub-cont">
                     <div className="d-flex flex-column p-m" style={{width:"150px"}}>
                         <img style={{height:'100px'}}  src="/id4.png" />
-                        <span className="p-t ml-4">Millet Dosa Powder</span>
+                        <span className="p-t" style={{fontSize:'16px'}}>Millet Dosa Powder</span>
                         </div>
                     </div>
                     </div>
