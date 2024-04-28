@@ -4,8 +4,8 @@
 }
 
 .journeyText{
-  font-family: "Lato", sans-serif;
-  font-weight: 500;
+  
+  font-weight: 600;
   font-size: 20px;
 }
 
@@ -39,8 +39,8 @@
 }
 
 .card-text{
-  font-family: "Lato", sans-serif;
-  font-weight: 500;
+  
+  font-weight: 600;
   font-size: 16px;
 }
 
@@ -64,8 +64,7 @@
     height: 90%;
   }
   .card-text{
-    font-family: "Lato", sans-serif;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 12px;
   }
   .f1{
@@ -73,10 +72,10 @@
     justify-content: start;
   }
   .journeyText{
-    font-family: "Lato", sans-serif;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 12px;
   }
+  /* you can use these font styles for desired class names replace the text class name to see the effect */
   .lato-regular {
     font-family: "Lato", sans-serif;
     font-weight: 400;
