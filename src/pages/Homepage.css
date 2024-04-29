@@ -132,6 +132,10 @@
   margin-right:10px;
 }
 
+.footerText{
+  margin:0;
+  padding: 0;
+}
 .footer-nutri{
   width: 161px;
   height: 38px;
@@ -256,6 +260,11 @@
         justify-content: center;
         align-items: center;
         
+    }
+
+    .footerText{
+      margin:0;
+      padding: 0;
     }
 
     .home-text{
