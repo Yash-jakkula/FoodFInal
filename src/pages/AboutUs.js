@@ -5,7 +5,9 @@ function Aboutus() {
   return (
     <>
         <div>
+          <div className='nvimage'>
           <Globe />
+          </div>
           <div className='row d-flex justify-content-center mt-4'>
             <div className='col-md-4 d-flex justify-content-center'>
               <div class="card" style={{width: '90%',borderStyle:'none'}}>

@@ -383,7 +383,9 @@ function ProductPage() {
        {/* <p style={{ fontWeight: 'bold', display: 'inline-block', textAlign: 'center', width: '100%' }}>products page</p> */}
 
        <div className='product-box'>
+        <div className='nvimage'>
        <Globe />
+       </div>
   <div className='product-filter'>
   <button className={`product-button-1 ${activeTab === 'breakfast' ? 'active' : ''}`} onClick={() => handleTabClick('breakfast')}>
                         

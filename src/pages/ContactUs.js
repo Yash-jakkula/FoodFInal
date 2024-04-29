@@ -25,7 +25,9 @@ const ContactUs = ()=>{
     return(
         <>
         <div>
+            <div className="nvimage">
             <Globe />
+            </div>
             <div className="row mt-3 d-flex justify-content-center align-items-center">
                 <div className="col-md-6 container d-flex justify-content-center">
                     <div style={{width:'80%'}}>

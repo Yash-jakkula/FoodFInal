@@ -383,7 +383,9 @@ function OrderPage() {
   
   return (
     <div>
+      <div className='nvimage'>
       <Globe />
+      </div>
   <div className='order'>
     <div className='order-image' onSubmit={handleSubmit}>
       <img src={selectedData && selectedData.image}></img>
