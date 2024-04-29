@@ -406,44 +406,50 @@ function ProductPage() {
   <div className='prod-more-filter' style={{display:'flex',justifyContent:'center'}}>
     <div className='row mt-4'>
     {activeTab === "breakfast" && <div className='prod-d' style={{display:'flex',gap:'10px',marginBottom:'2rem'}}>
-      <div>
+                      <div className='breakbtnMain'>
+                      <div className='breakbtns-3'>
                         <button className={`filters-btn ${activeFilter === 'mix' ? 'active' : ''}`} onClick={() => handleFilterClick('Mix Powders')}>
                             Mix Powders
                         </button>
-                        </div>
-                        <div>
+                        
+                        
                         <button className={`filters-btn ${activeFilter === 'cook' ? 'active' : ''}`} onClick={() => handleFilterClick('cook')}>
                             Cook Powders
                         </button>
-                        </div>
-                        <div>
+                        
+                        
                         <button className={`filters-btn ${activeFilter === 'chutney' ? 'active' : ''}`} onClick={() => handleFilterClick('Chutney')}>
                             Chutney
                         </button>
                         </div>
-                        <div>
+                        <div className='breakbtns-1'>
                         <button className={`filters-btn ${activeFilter === 'sambhar' ? 'active' : ''}`} onClick={() => handleFilterClick('Sambar')}>
                             Sambhar
                         </button>
                         </div>
+                        </div>
                     </div>}
 
                     {activeTab === "biryani" && <div className='filters-products'>
+                      <div className='birbtn'>
                         <button className={`filters-btn ${activeFilter === 'Non-Veg' ? 'active' : ''}`} onClick={() => handleFilterClick('non-veg masala')}>
                             Non-Veg Biryani Masala's
                         </button>
                         <button className={`filters-btn ${activeFilter === 'Veg-biryani' ? 'active' : ''}`} onClick={() => handleFilterClick('veg masala')}>
                             Veg Biryani Masala's
                         </button>
+                        </div>
                     </div>}
 
                     {activeTab === "tea" && <div className='filters-products'>
+                        <div className='teabtn'>
                         <button className={`filters-btn ${activeFilter === 'Tea' ? 'active' : ''}`} onClick={() => handleFilterClick('Tea')}>
                             Tea
                         </button>
                         <button className={`filters-btn ${activeFilter === 'beverages' ? 'active' : ''}`} onClick={() => handleFilterClick('beverages')}>
                             Beverages
                         </button>
+                        </div>
                     </div>}
 
     </div>
@@ -689,223 +695,6 @@ function ProductPage() {
                         )
                     })}
     </div>
-    {/* {
-      products.length > 0 ? <div className='product-display'>
-       {
-        products.map((item,index)=>{
-          return <div key={index} className='product-card'>
-            <div className="card">
-              <h3 className="title">{item.productName}</h3>
-              <img src={item.image} alt='' style={{}}/>
-              <button onClick={handleBuyNow}>Buy now</button>
-            </div>
-          </div>
-        })
-       }
-      </div>:null
-    } */}
-{/*  
-  <
-        div className = 'prod-display' >
-        <
-        div className = 'col-md-4 mb-2' >
-        <
-        div className = 'prod-card' >
-        <
-        div className = 'prod-card-image' >
-        <
-        img src = './Frame 260 (2).png' /> < /
-        div > <
-        div className = 'prod-card-title' > Dosa Powder < /div> <
-        button className = 'btn-prod-card buynow-btn' >
-        Buy Now <
-        /button> < /
-        div > <
-        div className = 'prod-card' >
-        <
-        div className = 'prod-card-image' >
-        <
-        img src = './Frame 260 (2).png' /> < /
-        div > <
-        div className = 'prod-card-title' > Dosa Powder < /div> <
-        button className = 'btn-prod-card buynow-btn' >
-        Buy Now <
-        /button> < /
-        div > <
-        div className = 'prod-card' >
-        <
-        div className = 'prod-card-image' >
-        <
-        img src = './Frame 260 (2).png' /> < /
-        div > <
-        div className = 'prod-card-title' > Dosa Powder < /div> <
-        button className = 'btn-prod-card buynow-btn' >
-        Buy Now <
-        /button> < /
-        div > <
-        div className = 'prod-card' >
-        <
-        div className = 'prod-card-image' >
-        <
-        img src = './Frame 260 (2).png' /> < /
-        div > <
-        div className = 'prod-card-title' > Dosa Powder < /div> <
-        button className = 'btn-prod-card buynow-btn' >
-        Buy Now <
-        /button> < /
-        div >
-
-        <
-        /div> <
-        div className = 'col-md-4 mb-2' >
-        <
-        div className = 'prod-card' >
-        <
-        div className = 'prod-card-image' >
-        <
-        img src = './Frame 260 (2).png' /> < /
-        div > <
-        div className = 'prod-card-title' > Dosa Powder < /div> <
-        button className = 'btn-prod-card buynow-btn' >
-        Buy Now <
-        /button> < /
-        div > <
-        div className = 'prod-card' >
-        <
-        div className = 'prod-card-image' >
-        <
-        img src = './Frame 260 (2).png' /> < /
-        div > <
-        div className = 'prod-card-title' > Dosa Powder < /div> <
-        button className = 'btn-prod-card buynow-btn' >
-        Buy Now <
-        /button> < /
-        div > <
-        div className = 'prod-card' >
-        <
-        div className = 'prod-card-image' >
-        <
-        img src = './Frame 260 (2).png' /> < /
-        div > <
-        div className = 'prod-card-title' > Dosa Powder < /div> <
-        button className = 'btn-prod-card buynow-btn' >
-        Buy Now <
-        /button> < /
-        div > <
-        div className = 'prod-card' >
-        <
-        div className = 'prod-card-image' >
-        <
-        img src = './Frame 260 (2).png' /> < /
-        div > <
-        div className = 'prod-card-title' > Dosa Powder < /div> <
-        button className = 'btn-prod-card buynow-btn' >
-        Buy Now <
-        /button> < /
-        div >
-
-        <
-        /div> <
-        div className = 'col-md-4 mb-2' >
-        <
-        div className = 'prod-card' >
-        <
-        div className = 'prod-card-image' >
-        <
-        img src = './Frame 260 (2).png' /> < /
-        div > <
-        div className = 'prod-card-title' > Dosa Powder < /div> <
-        button className = 'btn-prod-card buynow-btn' >
-        Buy Now <
-        /button> < /
-        div > <
-        div className = 'prod-card' >
-        <
-        div className = 'prod-card-image' >
-        <
-        img src = './Frame 260 (2).png' /> < /
-        div > <
-        div className = 'prod-card-title' > Dosa Powder < /div> <
-        button className = 'btn-prod-card buynow-btn' >
-        Buy Now <
-        /button> < /
-        div > <
-        div className = 'prod-card' >
-        <
-        div className = 'prod-card-image' >
-        <
-        img src = './Frame 260 (2).png' /> < /
-        div > <
-        div className = 'prod-card-title' > Dosa Powder < /div> <
-        button className = 'btn-prod-card buynow-btn' >
-        Buy Now <
-        /button> < /
-        div > <
-        div className = 'prod-card' >
-        <
-        div className = 'prod-card-image' >
-        <
-        img src = './Frame 260 (2).png' /> < /
-        div > <
-        div className = 'prod-card-title' > Dosa Powder < /div> <
-        button className = 'btn-prod-card buynow-btn' >
-        Buy Now <
-        /button> < /
-        div >
-
-        <
-        /div> <
-        div className = 'col-md-4 mb-2' >
-        <
-        div className = 'prod-card' >
-        <
-        div className = 'prod-card-image' >
-        <
-        img src = './Frame 260 (2).png' /> < /
-        div > <
-        div className = 'prod-card-title' > Dosa Powder < /div> <
-        button className = 'btn-prod-card buynow-btn' >
-        Buy Now <
-        /button> < /
-        div > <
-        div className = 'prod-card' >
-        <
-        div className = 'prod-card-image' >
-        <
-        img src = './Frame 260 (2).png' /> < /
-        div > <
-        div className = 'prod-card-title' > Dosa Powder < /div> <
-        button className = 'btn-prod-card buynow-btn' >
-        Buy Now <
-        /button> < /
-        div > <
-        div className = 'prod-card' >
-        <
-        div className = 'prod-card-image' >
-        <
-        img src = './Frame 260 (2).png' /> < /
-        div > <
-        div className = 'prod-card-title' > Dosa Powder < /div> <
-        button className = 'btn-prod-card buynow-btn' >
-        Buy Now <
-        /button> < /
-        div > <
-        div className = 'prod-card' >
-        <
-        div className = 'prod-card-image' >
-        <
-        img src = './Frame 260 (2).png' /> < /
-        div > <
-        div className = 'prod-card-title' > Dosa Powder < /div> <
-        button className = 'btn-prod-card buynow-btn' >
-        Buy Now <
-        /button> < /
-        div >
-
-        <
-        /div> < /
-        div >  */}
-        
         </>
     );
 }

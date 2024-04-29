@@ -6,6 +6,7 @@ const FooterPage = () => {
     return(
         <>
           <div className="p-3" style={{backgroundColor:'#004AAD',marginTop:'80px',width:'100%'}}>
+          
           <img className="footer-nutri" src="/footer-nutri.png" />
             <div className="row m-3 footer-main">
             <div className="col-md-6">

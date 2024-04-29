@@ -10,6 +10,17 @@ main {
     /* Allow the content to take up remaining space */
 }
 
+.breakbtnMain{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.breakbtns-3{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
 .spotlight-header {
     margin-top: -2rem;
     display: flex;
@@ -361,6 +372,18 @@ line-height: normal;
     color:white
 }
 
+.birbtn{
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+    width: 100%;
+}
+
+.teabtn{
+    display: flex;
+    flex-direction: row;
+    gap:10px
+}
 .product-btn-des-w{
     display: block;
 }
@@ -390,6 +413,18 @@ line-height: normal;
     
 }
 
+.breakbtnMain{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.breakbtns-3{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
 .buynow-btn{
     color: #FFF;
     font-family: Montserrat;
@@ -401,6 +436,37 @@ line-height: normal;
     padding: 10px;
 }
 
+.filters-btn {
+    display: flex;
+    padding-top:10px ;
+    padding-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    border: 3px solid #004AAD;
+    background: #fff;
+    color: rgba(0, 0, 0, 0.60);
+    font-family: Montserrat;
+    font-size: 0.8rem;
+    width: 90%;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width:100px;
+}
+
+.birbtn{
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+    width: 100%;
+}
+
+.teabtn{
+    display: flex;
+    flex-direction: row;
+    gap:10px
+}
 .prod-card-title{
     color: rgba(0, 0, 0, 0.85);
     font-family: Montserrat;
@@ -445,9 +511,7 @@ line-height: normal;
     .product-btn-icon{
         width: 10px;
     }
-    .filters-btn{
-        width:10rem;
-    }
+   
     .product-more-filter{
         display: flex;
     }
@@ -508,11 +572,7 @@ line-height: normal;
         align-items: center;
         
     }
-    .filters-btn{
-        /* width:10rem; */
-         width:15rem;
-         font-size:1rem;
-    }
+    
     .filters-products {
        
         /* flex-wrap: wrap; */
