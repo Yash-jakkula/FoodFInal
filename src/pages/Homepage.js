@@ -5,7 +5,9 @@ const Homepage = () => {
     return(
         <div style={{width:'100%',overflow:'hidden'}}>
             <div className="row" style={{height:'20%'}}>
-            <Globe />   
+            <div className="nvimage">
+            <Globe />
+            </div>   
             <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">

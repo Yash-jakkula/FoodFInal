@@ -18,7 +18,10 @@ const Nav = () => {
 </div>
 
                            <div className="col-md-4 d-flex justify-content-end" style={{width:'30%'}}>
-                            <img className="logoimages right-image" src="/kk1.jpeg" />
+                            <div style={{display:'flex',flexDirection:'row',alignItems:'center',gap:'10px'}}>
+                            <img className="logoimages right-image" src="/globe.gif" />
+                            <span className="w-text" style={{fontSize:'20px',fontWeight:'600'}}>Domestic & International Markets- Accessible worldwide and everywhere</span>
+                            </div>
                             <div>
                             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <img className="icon-menu" src="/menu.png"/>
