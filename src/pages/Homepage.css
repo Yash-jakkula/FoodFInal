@@ -50,6 +50,13 @@
     
 }
 
+.headings{
+  font-weight:600;
+  font-size:26px;
+  color:#000000;
+  text-decoration:underline;
+}
+
 .p-m{
   border: 1px solid #004AAD66;
   background-color:#83b1ee66;
@@ -156,11 +163,15 @@
  }    
   .footer-main{
     width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
   }
 
   .f-ic{
     margin: 0;
     padding: 0;
+    justify-content: center;
+    align-items: center;
   }
   .mobile{
         display: flex;
@@ -170,6 +181,7 @@
     .footer-nutri{
       width: 101px;
       height: 27px;
+      margin-left: 13px;
     }
     .home-text-black{
         color: #000000;
@@ -250,7 +262,8 @@
        font-size: 16px;
     }
     .component-38-icon{
-        font-size: 10px;
+        width: 32px;
+        height: 32px;
     }
     .external{
         font-size: 10px;
@@ -287,13 +300,17 @@
     display: block; /* Ensure image is displayed as a block element */
     width: auto; /* Allow the image to adjust its width */
     height: auto; /* Allow the image to adjust its height */
-    max-width: 95%; /* Limit image width to fit within parent */
-    max-height: 100%; /* Limit image height to fit within parent */
+    max-width: 34px; /* Limit image width to fit within parent */
+    max-height: 34px; /* Limit image height to fit within parent */
 }
 .text-sub-2{
  margin-bottom: 20px;
  justify-content: flex-start;
  margin-left: 0px;   
+}
+
+.text-white{
+  font-size: 12px;
 }
 
 .home-i-text{

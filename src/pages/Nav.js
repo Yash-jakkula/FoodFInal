@@ -5,8 +5,6 @@ import { Link } from "react-router-dom";
 const Nav = () => {
     return(
         <>
-        
-                    
                         <div className="topNav" style={{width:'100%'}}>
                           <div className="logo-div">
                           <Link to="/"><img className="logoimages" src="/kk2.jpeg" alt="logo" /></Link>

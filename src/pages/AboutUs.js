@@ -1,23 +1,11 @@
 import React from 'react'
 import './aboutus_styles.css';
-import { Link } from "react-router-dom"
-import { ExternalLink } from 'react-external-link';
-import Vector1 from "../assets/Vector1.png"
-import Vector2 from "../assets/Vector2.png"
-import Vector3 from "../assets/Vector3.png"
-import Vector4 from "../assets/Vector4.png"
-import Vector5 from "../assets/Vector5.png"
-import Vector6 from "../assets/Vector6.png"
-import Vector7 from "../assets/Vector7.png"
-import Vector8 from "../assets/Vector8.png"
-
+import Globe from './MobileViewIcon';
 function Aboutus() {
   return (
     <>
         <div>
-          <div className="nvimage" style={{backgroundColor:'#004AAD'}}>
-                <img className="navp" src="/demo.png" />
-                </div>
+          <Globe />
           <div className='row d-flex justify-content-center mt-4'>
             <div className='col-md-4 d-flex justify-content-center'>
               <div class="card" style={{width: '90%',borderStyle:'none'}}>
@@ -63,7 +51,7 @@ benefits and our loved ones touch</p>
           <div className='container-fluid'>
             
             <div className='col-12 d-flex justify-content-center'>
-              <span style={{color:'#000000',fontWeight:'700',fontSize:'20px'}}>Our journey</span>
+              <span className='headings'>Our journey</span>
             </div>
             <div className='col-12 d-flex justify-content-center mt-4'>
                 <span className='journeyText'>At the heart of Nutryfood's success lies our unwavering commitment to supreme Research and Development. Through tireless innovation, we've transformed what was once a laborious one-day process into a swift one-minute task, revolutionising kitchen efficiency and making cooking a breeze. Effortless Cooking truly begins with Nutryfood, where the perfect blend of convenience and high quality ensures that every dish we prepare is a culinary masterpiece.</span>
@@ -88,7 +76,7 @@ Our vision extends far beyond borders, as we aim to bring the authentic taste of
 
           <div className='row d-flex justify-content-center'>
             <div className='col-12 d-flex justify-content-center mt-5'>
-              <span style={{fontWeight:'700',fontSize:'20px',color:'#000000'}}>Core Values</span>
+              <span className='headings'>Core Values</span>
             </div>
             <div className='row mt-4 w-c' style={{width:'80%'}}>
             <div className='col-md-4 center-div'>
@@ -134,7 +122,7 @@ Our vision extends far beyond borders, as we aim to bring the authentic taste of
 
           <div className='row'>
           <div className='col-12 d-flex justify-content-center mb-2 mt-2'>
-            <p class="card-title" style={{fontWeight:'700',fontSize:'20px'}}>Founders</p>
+            <p class="card-title headings">Founders</p>
           </div>
             <div className='col-12 d-flex justify-content-center'>
             <div class="row d-flex flex-direction-row" style={{width:'80%'}}>
@@ -180,7 +168,7 @@ Our vision extends far beyond borders, as we aim to bring the authentic taste of
 
           <div className='row'>
             <div className='col-12 d-flex justify-content-center'>
-            <span style={{fontWeight:'600',fontSize:'20px',color:'#000000'}}>Our Team</span>
+            <span className='headings'>Our Team</span>
             </div>
 
             <div className='col-12 w-c'>

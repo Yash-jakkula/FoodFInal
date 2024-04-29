@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import './order.css'
 import { useLocation } from 'react-router-dom'
+import Globe from './MobileViewIcon'
 let breakfastMixesData=[
   {
     "sno": "1",
@@ -382,9 +383,7 @@ function OrderPage() {
   
   return (
     <div>
-      <div className="nvimage" style={{backgroundColor:'#004AAD'}}>
-                <img className="navp" src="/demo.png" />
-                </div>
+      <Globe />
   <div className='order'>
     <div className='order-image' onSubmit={handleSubmit}>
       <img src={selectedData && selectedData.image}></img>

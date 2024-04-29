@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import './product_style.css';
 import { Link } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
+import Globe from './MobileViewIcon';
 let breakfastMixesData=[
     {
       "sno": "1",
@@ -382,9 +383,7 @@ function ProductPage() {
        {/* <p style={{ fontWeight: 'bold', display: 'inline-block', textAlign: 'center', width: '100%' }}>products page</p> */}
 
        <div className='product-box'>
-       <div className="nvimage" style={{backgroundColor:'#004AAD'}}>
-                <img className="navp" src="/demo.png" />
-                </div>
+       <Globe />
   <div className='product-filter'>
   <button className={`product-button-1 ${activeTab === 'breakfast' ? 'active' : ''}`} onClick={() => handleTabClick('breakfast')}>
                         

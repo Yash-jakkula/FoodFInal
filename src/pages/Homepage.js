@@ -1,12 +1,11 @@
 import React from "react";
 import './Homepage.css'
+import Globe from "./MobileViewIcon";
 const Homepage = () => {
     return(
         <div style={{width:'100%',overflow:'hidden'}}>
             <div className="row" style={{height:'20%'}}>
-                <div className="nvimage" style={{backgroundColor:'#004AAD'}}>
-                <img className="navp" src="/demo.png" />
-                </div>
+            <Globe />   
             <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
@@ -102,7 +101,7 @@ const Homepage = () => {
             </div>
             <div className="row mt-5">
                 <div className="col-12 d-flex justify-content-center mb-3" >
-                    <span style={{fontWeight:'700',fontSize:'20px',color:'#000000'}}>Who We Are?</span>
+                    <span className="headings">Who We Are?</span>
                 </div>
                 <div className="row">
                 <div className="col-md-6 d-flex justify-content-center whoimg">
@@ -126,7 +125,7 @@ At Nutryfood, excellence is accessible to all, with cost-effective solutions for
             </div>
             <div className="row d-flex justify-content-center" style={{width:'100%'}}>
                 <div className="col-12 d-flex justify-content-center mb-4">
-                <span style={{fontWeight:'700',fontSize:'20px',color:'#000000'}}>Best Sellers</span>           
+                <span className="headings">Best Sellers</span>           
                 </div>
                 
                     <div className="row dummy">
@@ -201,7 +200,7 @@ At Nutryfood, excellence is accessible to all, with cost-effective solutions for
             </div>
             <div className="row mt-5">
                 <div className="col-12 d-flex justify-content-center mb-4">
-                <span style={{fontWeight:'600',fontSize:'26px',color:'#000000'}}>Certifications</span>
+                <span className="headings">Certifications</span>
                 </div>
                 
                 <div className="logos">

@@ -5,11 +5,12 @@ import './Homepage.css';
 const FooterPage = () => {
     return(
         <>
-          <div className="p-5" style={{backgroundColor:'#004AAD',marginTop:'80px',width:'100%'}}>
-            
+          <div className="p-3" style={{backgroundColor:'#004AAD',marginTop:'80px',width:'100%'}}>
+          <img className="footer-nutri" src="/footer-nutri.png" />
             <div className="row m-3 footer-main">
             <div className="col-md-6">
-            <img className="footer-nutri" src="/footer-nutri.png" />
+            
+            <div className="row">
             <ul className="d-flex mb-4 links mt-4">
         <li className="nav-item d-flex">
           <Link className="text-white nav-link" to="/">Home</Link>
@@ -24,7 +25,7 @@ const FooterPage = () => {
         <Link className="text-white nav-link" to="/contactus">Contact Us</Link>
         </li>
             </ul>
-
+            </div>
             <div className="row mb-4 d-flex align-items-center">
         <div className="row">
         <div className="col-md-6 d-flex gap-2 mb-3 f-ic">

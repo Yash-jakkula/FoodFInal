@@ -1,5 +1,6 @@
 
 import React from "react";
+import Globe from "./MobileViewIcon";
 
 const ContactUs = ()=>{
 
@@ -24,9 +25,7 @@ const ContactUs = ()=>{
     return(
         <>
         <div>
-            <div className="nvimage" style={{backgroundColor:'#004AAD'}}>
-                <img className="navp" src="/demo.png" />
-                </div>
+            <Globe />
             <div className="row mt-3 d-flex justify-content-center align-items-center">
                 <div className="col-md-6 container d-flex justify-content-center">
                     <div style={{width:'80%'}}>
