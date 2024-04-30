@@ -88,7 +88,7 @@ font-style: normal;
 font-weight: 600;
 line-height: normal;
 }
-@media screen and (max-width:600px) {
+@media screen and (max-width:900px) {
     .form-input{
         display: flex;
         flex-direction: column;
