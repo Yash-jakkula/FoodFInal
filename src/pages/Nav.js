@@ -10,7 +10,7 @@ const Nav = () => {
                           <Link to="/"><img className="logoimages" src="/kk2.jpeg" alt="logo" /></Link>
                             
                           </div>
-                          <div class="input-group-prepend ml-5 searchdiv" style={{ display: 'flex' }}>
+                          <div class="input-group-prepend searchdiv" style={{ display: 'flex' }}>
     <div class="input-group-text prepend-icon">
         <img class="searchImg" src="/search.svg" alt="Search Icon" />
     </div>

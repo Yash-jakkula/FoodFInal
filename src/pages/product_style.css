@@ -394,7 +394,7 @@ line-height: normal;
 }
 
 
-@media screen and (max-width:900px) {
+@media screen and (max-width:1200px) {
     .product-box{
         display:flex;
         flex-direction: column;
