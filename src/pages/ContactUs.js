@@ -9,7 +9,7 @@ const ContactUs = ()=>{
     const [queries,setQueries] = React.useState()
 
     const con = () => {
-        console.log("values",name,email,queries);
+        
         const ownerPhoneNumber = '9392587332';
         if(name && email && queries ){
         const message = `User Details:\nName: ${name}\nemail: ${email}\nquery: ${queries}`;

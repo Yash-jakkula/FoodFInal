@@ -3,6 +3,7 @@ import './product_style.css';
 import { Link } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
 import Globe from './MobileViewIcon';
+import { Context } from '../context/OrderContext';
 let breakfastMixesData=[
     {
       "sno": "1",
@@ -349,6 +350,8 @@ let data = {
 }
 function ProductPage() {
   const navigate=useNavigate()
+  const {orderProduct,setOrderProduct} = React.useContext(Context);
+
   const [activeTab, setActiveTab] = useState('breakfast');
 
   const handleTabClick = (tabName) => {
@@ -370,9 +373,14 @@ function ProductPage() {
       setActiveFilter(filterName);
   };
 
-  const handleBuyNowClick = (productId, category) => {
+  const handleBuyNowClick = (productName,image,category) => {
       // Set the product ID in localStorage
-      localStorage.setItem('productId', productId);
+      setOrderProduct({
+          productName,
+          image,
+          category
+      })
+      localStorage.setItem('productId', productName);
       localStorage.setItem("category", category);
   };
 
@@ -486,7 +494,7 @@ function ProductPage() {
                                             data:{productName:product.productName,image:product.image,sno:product.sno}
                                         }
                                     }}>
-                                        <button className='btn-prod-card buynow-btn' onClick={() => handleBuyNowClick(product.sno, "Breakfast")}>
+                                        <button className='btn-prod-card buynow-btn' onClick={() => handleBuyNowClick(product.productName,product.image,product.category)}>
                                             Buy Now
                                         </button>
                                     </Link>
@@ -510,7 +518,7 @@ function ProductPage() {
                                             data:{productName:product.productName,image:product.image,sno:product.sno}
                                         }
                                     }}>
-                                        <button className='btn-prod-card buynow-btn' onClick={() => handleBuyNowClick(product.sno, "Breakfast")}>
+                                        <button className='btn-prod-card buynow-btn' onClick={() => handleBuyNowClick(product.productName,product.image,product.category)}>
                                             Buy Now
                                         </button>
                                     </Link>
@@ -534,7 +542,7 @@ function ProductPage() {
                                             data:{productName:product.productName,image:product.image,sno:product.sno}
                                         }
                                     }}>
-                                        <button className='btn-prod-card buynow-btn' onClick={() => handleBuyNowClick(product.sno, "Breakfast")}>
+                                        <button className='btn-prod-card buynow-btn' onClick={() => handleBuyNowClick(product.productName,product.image,product.category)}>
                                             Buy Now
                                         </button>
                                     </Link>
@@ -558,7 +566,7 @@ function ProductPage() {
                                             data:{productName:product.productName,image:product.image,sno:product.sno}
                                         }
                                     }}>
-                                        <button className='btn-prod-card buynow-btn' onClick={() => handleBuyNowClick(product.sno, "Breakfast")}>
+                                        <button className='btn-prod-card buynow-btn' onClick={() => handleBuyNowClick(product.productName,product.image,product.category)}>
                                             Buy Now
                                         </button>
                                     </Link>
@@ -570,7 +578,7 @@ function ProductPage() {
                     {/* ----biryani filtering--- */}
                     {activeTab === "biryani" && activeFilter === "non-veg masala" && data.nonVegMasalas.map((product) => {
                         const dataToSend = { id: product.sno }
-                        console.log(dataToSend, "datatpsend")
+                        
                         return (
                             <div key={product.id} className='col-md-4 col-sm-6 col-xs-6 col-6 mb-2 prod-card-main' style={{ position: 'relative' }}>
                                 <div className='prod-card' >
@@ -585,7 +593,7 @@ function ProductPage() {
                                             data:{productName:product.productName,image:product.image,sno:product.sno}
                                         }
                                     }}>
-                                        <button className='btn-prod-card buynow-btn' onClick={() => handleBuyNowClick(product.sno, "Biryani")}>
+                                        <button className='btn-prod-card buynow-btn' onClick={() => handleBuyNowClick(product.productName,product.image,product.category)}>
                                             Buy Now
                                         </button>
                                     </Link>
@@ -596,7 +604,7 @@ function ProductPage() {
 
                     {activeTab === "biryani" && activeFilter === "veg masala" && data.vegMasalasdata.map((product) => {
                         const dataToSend = { id: product.sno }
-                        console.log(dataToSend, "datatpsend")
+                        
                         return (
                             <div key={product.id} className='col-md-4 col-sm-6 col-xs-6 col-6 mb-2 prod-card-main' style={{ position: 'relative' }}>
                                 <div className='prod-card' >
@@ -611,7 +619,7 @@ function ProductPage() {
                                             data:{productName:product.productName,image:product.image,sno:product.sno}
                                         }
                                     }}>
-                                        <button className='btn-prod-card buynow-btn' onClick={() => handleBuyNowClick(product.sno, "Biryani")}>
+                                        <button className='btn-prod-card buynow-btn' onClick={() => handleBuyNowClick(product.productName,product.image,product.category)}>
                                             Buy Now
                                         </button>
                                     </Link>
@@ -623,7 +631,7 @@ function ProductPage() {
                     {/* -----tea concentrations----- */}
                     { !teaConcentrationsData.length > 0 &&  activeTab === "tea" && data.vegMasalasdata.map((product) => {
                         const dataToSend = { id: product.sno }
-                        console.log(dataToSend, "datatpsend")
+                        
                         return (
                             <div key={product.id} className='col-md-4 col-sm-6 col-xs-6 col-6 mb-2 prod-card-main' style={{ position: 'relative' }}>
                                 <div className='prod-card' >
@@ -638,7 +646,7 @@ function ProductPage() {
                                             data:{productName:product.productName,image:product.image,sno:product.sno}
                                         }
                                     }}>
-                                        <button className='btn-prod-card buynow-btn' onClick={() => handleBuyNowClick(product.sno, "Tea")}>
+                                        <button className='btn-prod-card buynow-btn' onClick={() => handleBuyNowClick(product.productName,product.image,product.category)}>
                                             Buy Now
                                         </button>
                                     </Link>
@@ -648,7 +656,7 @@ function ProductPage() {
                     })}
                     {teaConcentrationsData.length > 0 && activeTab === "tea" && activeFilter === "Tea" && data.teadata.map((product) => {
                         const dataToSend = { id: product.sno }
-                        console.log(dataToSend, "datatpsend")
+                       
                         return (
                             <div key={product.id} className='col-md-4 col-sm-6 col-xs-6 col-6 mb-2 prod-card-main' style={{ position: 'relative' }}>
                                 <div className='prod-card' >
@@ -663,7 +671,7 @@ function ProductPage() {
                                             data:{productName:product.productName,image:product.image,sno:product.sno}
                                         }
                                     }}>
-                                        <button className='btn-prod-card buynow-btn' onClick={() => handleBuyNowClick(product.sno, "Tea")}>
+                                        <button className='btn-prod-card buynow-btn' onClick={() => handleBuyNowClick(product.productName,product.image,product.category)}>
                                             Buy Now
                                         </button>
                                     </Link>
@@ -673,7 +681,7 @@ function ProductPage() {
                     })}
                     {teaConcentrationsData.length > 0 && activeTab === "tea" && activeFilter === "beverages" && data.beveragesdata.map((product) => {
                         const dataToSend = { id: product.sno }
-                        console.log(dataToSend, "datatpsend")
+                      
                         return (
                             <div key={product.id} className='col-md-4 col-sm-6 col-xs-6 col-6 mb-2 prod-card-main' style={{ position: 'relative' }}>
                                 <div className='prod-card' >
@@ -688,7 +696,7 @@ function ProductPage() {
                                             data:{productName:product.productName,image:product.image,sno:product.sno}
                                         }
                                     }}>
-                                        <button className='btn-prod-card buynow-btn' onClick={() => handleBuyNowClick(product.sno, "Tea")}>
+                                        <button className='btn-prod-card buynow-btn' onClick={() => handleBuyNowClick(product.productName,product.image,product.category)}>
                                             Buy Now
                                         </button>
                                     </Link>
