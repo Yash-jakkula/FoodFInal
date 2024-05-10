@@ -388,9 +388,9 @@ console.log(searchItem,'sra');
                     })}
      </div>
        </> 
-{/* //    : <div className='row m-2'>
-//       <Search />
-//       </div>} */}
+     {/*    : <div className='row m-2'>
+            <Search />
+           </div>} */}
 
      
         </>

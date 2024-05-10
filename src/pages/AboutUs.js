@@ -13,8 +13,8 @@ function Aboutus() {
               <div class="card" style={{width: '90%',borderStyle:'none'}}>
    <img className="card-img-top" src="/API 1.jpg" alt="Card image cap" /> 
   <div class="card-body">
-    <h5 class="card-title mt-2">Standing Foundation</h5>
-    <p class="img-text"> <span style={{fontWeight:'bold',fontSize:'16px'}}>“Growth across Globe”</span>
+    <h5 class="mt-2 heading">Standing Foundation</h5>
+    <p class="img-text"> <span className='img-text'>“Growth across Globe”</span>
  To reach our beloved Indian 
 residents in any corner of countries not to miss the 
 taste and benefits of Indian food - trunking through 
@@ -28,7 +28,7 @@ people through “Our NutryFood Industries. </p>
               <div class="card" style={{width: '90%',borderStyle:'none'}}>
    <img className="card-img-top" src="/API 2.jpg" alt="Card image cap" /> 
   <div class="card-body">
-    <h5 class="card-title mt-2">Branching Principles</h5>
+    <h5 className="heading mt-2">Branching Principles</h5>
     <p class="img-text">Not Compromising on Quality, Standards, Traditional 
 method of preparation, Preserving Nutrients, Health 
 benefits and our loved ones touch</p>
@@ -40,8 +40,8 @@ benefits and our loved ones touch</p>
               <div class="card" style={{width: '90%',borderStyle:'none'}}>
    <img className="card-img-top" src="/API 3.jpg" style={{borderRadius:'10px'}} alt="Card image cap" /> 
   <div class="card-body">
-    <h5 class="card-title mt-2">Fruitful Results</h5>
-    <p class="img-text"><span style={{fontWeight:'bold',fontSize:'16px'}}>Carry the legacy of our Mothers </span>
+    <h5 class="heading mt-2">Fruitful Results</h5>
+    <p class="img-text"><span className='img-text'>Carry the legacy of our Mothers </span>
  to present & future generations with our NutryFood</p>
   </div>
 </div>

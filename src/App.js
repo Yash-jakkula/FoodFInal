@@ -80,7 +80,7 @@ function App() {
       <Routes>
        {/* <Route path="/footer" element={<Footer/>}/> */}
       <Route path="/" element={<Homepage />} />
-       <Route path="/aboutus" element={<AboutUs />} />
+      <Route path="/aboutus" element={<AboutUs />} />
       <Route path="/ProductPage" element={<ProductPage />} />
       <Route path="/orderPage" element={<OrderPage />} />
       <Route path="ContactUs" element={<ContactUs />} />
