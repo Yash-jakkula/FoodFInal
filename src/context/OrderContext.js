@@ -6,9 +6,15 @@ const Context = createContext();
 
 const OrderContext = ({children}) => {
 const [orderProduct,setOrderProduct] = React.useState({});
+const [searchItem,setSearchItem] = React.useState("");
+const [show,setShow] = React.useState(false);
 const value = {
     orderProduct,
-    setOrderProduct
+    setOrderProduct,
+    searchItem,
+    setSearchItem,
+    show,
+    setShow
 }
     return(
         <>

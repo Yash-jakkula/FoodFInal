@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useContext, useEffect } from "react";
 import './Nav.css';
 import { Link } from "react-router-dom";
-
+import { Context } from "../context/OrderContext";
 const Nav = () => {
+  const {setSearchItem} = useContext(Context);
+  
     return(
         <>
                         <div className="topNav" style={{width:'100%'}}>
@@ -14,7 +16,7 @@ const Nav = () => {
     <div class="input-group-text prepend-icon">
         <img class="searchImg" src="/search.svg" alt="Search Icon" />
     </div>
-    <input type="text" style={{paddingLeft:'50px'}} class="form-control searchbar" placeholder="Search" aria-label="Search" aria-describedby="basic-addon1" />
+    <input type="text" onChange={(text)=>setSearchItem(text.target.value)} style={{paddingLeft:'50px'}} class="form-control searchbar" placeholder="Search" aria-label="Search" aria-describedby="basic-addon1" />
 </div>
 
                            <div className="col-md-4 d-flex justify-content-end" style={{width:'30%'}}>

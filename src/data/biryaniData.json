@@ -1,0 +1,94 @@
+[
+    {
+      "sno": "21",
+      "productName": "Chicken Dum Biryani Masala",
+      "image": "https://res.cloudinary.com/dqngbsszn/image/upload/v1712842020/Frame_260_14_kcpooj.png",
+      "category": "non-veg masala"
+    },
+    {
+      "sno": "22",
+      "productName": "Mutton Dum Biryani Masala",
+      "image": "https://res.cloudinary.com/dqngbsszn/image/upload/v1712842056/Frame_260_15_e9a4g8.png",
+      "category": "non-veg masala"
+    },
+    {
+      "sno": "23",
+      "productName": "Chicken Roast Masala",
+      "image": "https://res.cloudinary.com/dqngbsszn/image/upload/v1712842056/Frame_260_16_tsc5bd.png",
+      "category": "non-veg masala"
+    },
+    {
+      "sno": "24",
+      "productName": "Mutton Roast Masala",
+      "image": "https://res.cloudinary.com/dqngbsszn/image/upload/v1712842056/Frame_260_17_adsp89.png",
+      "category": "non-veg masala"
+    },
+    {
+      "sno": "25",
+      "productName": "Chicken Marination Masala",
+      "image": "https://res.cloudinary.com/dqngbsszn/image/upload/v1712842056/Frame_260_18_inhfsg.png",
+      "category": "non-veg masala"
+    },
+    {
+      "sno": "26",
+      "productName": "Mutton Marination Masala",
+      "image": "https://res.cloudinary.com/dqngbsszn/image/upload/v1712842055/Frame_260_19_sd5ncj.png",
+      "category": "non-veg masala"
+    },
+    {
+      "sno": "27",
+      "productName": "Biryani Masala",
+      "image": "https://res.cloudinary.com/dqngbsszn/image/upload/v1712842055/Frame_260_20_u6e2y8.png",
+      "category": "non-veg masala"
+    },
+    {
+      "sno": "28",
+      "productName": "Garam Masala",
+      "image": "https://res.cloudinary.com/dqngbsszn/image/upload/v1712842055/Frame_260_21_xodaty.png",
+      "category": "non-veg masala"
+    },
+    {
+      "sno": "29",
+      "productName": "Sambar Masala",
+      "image": "https://res.cloudinary.com/dqngbsszn/image/upload/v1712842055/Frame_260_23_hkj7qa.png",
+      "category": "veg masala"
+    },
+    {
+      "sno": "30",
+      "productName": "Rasam Masala",
+      "image": "https://res.cloudinary.com/dqngbsszn/image/upload/v1712842054/Frame_260_24_iw3g91.png",
+      "category": "veg masala"
+    },
+    {
+      "sno": "31",
+      "productName": "Garam Masala",
+      "image": "https://res.cloudinary.com/dqngbsszn/image/upload/v1712842054/Frame_260_25_xn8b04.png",
+      "category": "veg masala"
+    },
+    {
+      "sno": "32",
+      "productName": "Veg Biryani Masala",
+      "image": "https://res.cloudinary.com/dqngbsszn/image/upload/v1712842054/Frame_260_26_we5aek.png",
+      "category": "veg masala"
+    },
+    {
+      "sno": "33",
+      "productName": "Vangibath Masala",
+      "image": "https://res.cloudinary.com/dqngbsszn/image/upload/v1712842054/Frame_260_27_fgifvg.png",
+      "category": "veg masala"
+    },
+    {
+  
+  
+      "sno": "34",
+      "productName": "Pulihora Masala Powder",
+      "image": "https://res.cloudinary.com/dqngbsszn/image/upload/v1713849721/IMG-20240422-WA0068_lveti5.jpg",
+      "category": "veg masala"
+    },
+    {
+      "sno": "35",
+      "productName": "Bisi Bele Bath Masala",
+      "image": "https://res.cloudinary.com/dqngbsszn/image/upload/v1712842054/Frame_260_29_wsotiq.png",
+      "category": "veg masala"
+    }
+  ]

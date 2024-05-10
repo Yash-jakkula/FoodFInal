@@ -13,6 +13,7 @@ import ProductPage from "./pages/Productpage";
 import OrderPage from "./pages/OrderPage";
 import ContactUs from "./pages/ContactUs";
 import './App.css'
+import Search from "./pages/Search";
 
 // import Home1 from "./pages/Home1";
 
@@ -71,6 +72,7 @@ function App() {
       <div className="row">
         <div className="col-12">
       <Nav />
+
       </div>
       <div className="col-12">
         {/* <button onClick={whatopen} ></button> */}

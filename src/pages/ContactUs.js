@@ -31,7 +31,7 @@ const ContactUs = ()=>{
             <div className="row mt-3 d-flex justify-content-center align-items-center">
                 <div className="col-md-6 container d-flex justify-content-center">
                     <div style={{width:'80%'}}>
-                    <img className="contactusimg" src="/cont.png" alt="contactusimage" style={{width:"100%",height:'100%',position:'relative'}}/>
+                    <img className="contactusimg" src="/c.png" alt="contactusimage" style={{width:"100%",height:'100%',position:'relative'}}/>
                     <img style={{position:'absolute',color:'white',bottom:'20%',left:'20%',width:'60%'}} src="/textcopy.png" />
                     </div>
                 </div>
