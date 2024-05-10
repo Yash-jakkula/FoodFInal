@@ -4,8 +4,8 @@
 }
 
 .journeyText{
-  
-  font-weight: 600;
+  font-family: "Lato";
+  font-weight: 500;
   font-size: 20px;
 }
 
@@ -38,9 +38,9 @@
   justify-content: center;
 }
 
-.card-text{
-  
-  font-weight: 600;
+.img-text{
+  font-family: "Lato";
+  font-weight: 500;
   font-size: 16px;
 }
 
@@ -63,8 +63,8 @@
     width: 90%;
     height: 90%;
   }
-  .card-text{
-  font-weight: 600;
+  .img-text{
+  font-weight: 500;
   font-size: 12px;
   }
   .f1{
@@ -72,7 +72,8 @@
     justify-content: start;
   }
   .journeyText{
-    font-weight: 600;
+    font-family: "Lato";
+    font-weight: 500;
     font-size: 12px;
   }
   /* you can use these font styles for desired class names replace the text class name to see the effect */
@@ -108,6 +109,12 @@
   .card-text-div{
     font-size: 14px;
   }
+
+  .img-text{
+    font-family: "Lato","san-serif";
+    font-weight: 500;
+    font-size: 16px;
+  }
   
 .span-text-div{
   color:#004AAD;
@@ -117,6 +124,7 @@
 }
 
 .card-sub-text{
+  font-family: "Lato";
   font-size: 10px;
   font-weight: 500;
 }

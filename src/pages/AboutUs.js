@@ -14,7 +14,7 @@ function Aboutus() {
    <img className="card-img-top" src="/API 1.jpg" alt="Card image cap" /> 
   <div class="card-body">
     <h5 class="card-title mt-2">Standing Foundation</h5>
-    <p class="card-text"> <span style={{fontWeight:'bold',fontSize:'16px'}}>“Growth across Globe”</span>
+    <p class="img-text"> <span style={{fontWeight:'bold',fontSize:'16px'}}>“Growth across Globe”</span>
  To reach our beloved Indian 
 residents in any corner of countries not to miss the 
 taste and benefits of Indian food - trunking through 
@@ -29,7 +29,7 @@ people through “Our NutryFood Industries. </p>
    <img className="card-img-top" src="/API 2.jpg" alt="Card image cap" /> 
   <div class="card-body">
     <h5 class="card-title mt-2">Branching Principles</h5>
-    <p class="card-text">Not Compromising on Quality, Standards, Traditional 
+    <p class="img-text">Not Compromising on Quality, Standards, Traditional 
 method of preparation, Preserving Nutrients, Health 
 benefits and our loved ones touch</p>
   </div>
@@ -41,7 +41,7 @@ benefits and our loved ones touch</p>
    <img className="card-img-top" src="/API 3.jpg" style={{borderRadius:'10px'}} alt="Card image cap" /> 
   <div class="card-body">
     <h5 class="card-title mt-2">Fruitful Results</h5>
-    <p class="card-text"><span style={{fontWeight:'bold',fontSize:'16px'}}>Carry the legacy of our Mothers </span>
+    <p class="img-text"><span style={{fontWeight:'bold',fontSize:'16px'}}>Carry the legacy of our Mothers </span>
  to present & future generations with our NutryFood</p>
   </div>
 </div>
@@ -132,19 +132,21 @@ Our vision extends far beyond borders, as we aim to bring the authentic taste of
   <img class="card-img-top" src="/f1.png" alt="Card image cap" style={{height:'100%',width:'100%',marginBottom:'10px'}}/>
   </div>
   <div class="col-md-6 mt-2">
-    <h5 class="card-title card-text-div">Nanda Kishore Reddy<span className='span-text-div'>Co-Founder</span></h5>
+    <h5 class="card-title img-text-div">Nanda Kishore Reddy<span className='span-text-div'>Co-Founder</span></h5>
 
-    <p class="card-text card-sub-text"> Nanda Kishore Reddy,
+    <p class="img-text card-sub-text"> Nanda Kishore Reddy,
      a visionary entrepreneur deeply rooted in Indian agriculture, 
      founded his first company, Regis EXIM, 
-     at the age of 21. Born into a farming family, 
+     at the age of 21. 
+     </p>
+     <p className='img-text card-sub-text'>Born into a farming family, 
      he understood the hardships of the agricultural community. 
      At 24, he co-founded Nutryfood with a mission to revolutionize the 
      culinary landscape. 
      His relentless drive 
      led to the transformation 
-     of complex cooking processes into effortless tasks. 
-     His vision remains clear:harmonize cutting-edge innovation with traditional 
+     of complex cooking processes into effortless tasks. </p>
+     <p className='img-text card-sub-text'>His vision remains clear:harmonize cutting-edge innovation with traditional 
      Indian flavors, ensuring convenience, quality, and culinary excellence for all. 
      Nanda Kishore Reddy's story epitomizes resilience and innovation, 
      reflecting in Nutryfood's mission to
@@ -160,9 +162,12 @@ Our vision extends far beyond borders, as we aim to bring the authentic taste of
   <img class="card-img-top" src="/f2.png" alt="Card image cap" style={{height:'100%',width:'100%'}}/>
   </div>
   <div class="col-md-6 mt-2">
-    <h5 class="card-title card-text-div">Dr. Yalaka Nandini<span className='span-text-div'>Co-Founder</span></h5>
+    <h5 class="card-title img-text-div">Dr. Yalaka Nandini<span className='span-text-div'>Co-Founder</span></h5>
 
-    <p class="card-text card-sub-text">"With a decade of experience in Agricultural Engineering Research, Dr. Yalaka Nandini has pioneered various farming technologies for both small and large-scale farmers. Her deep-rooted understanding of food's importance led her to believe that it's pivotal for human health and prosperity. Motivated by this belief and a desire to offer high-quality, nutritious food with traditional values to those purchasing and consuming food products, she founded Nutry Food. Dr. Nandini ensures quality standards and oversees overseas the company."</p>
+    <p class="img-text card-sub-text">"With a decade of experience in Agricultural Engineering Research, Dr. Yalaka Nandini has pioneered various farming technologies for both small and large-scale farmers. 
+    Her deep-rooted understanding of food's importance led her to believe that it's pivotal for human health and prosperity. 
+    </p>
+    <p className='img-text card-sub-text'>Motivated by this belief and a desire to offer high-quality, nutritious food with traditional values to those purchasing and consuming food products, she founded Nutry Food. Dr. Nandini ensures quality standards and oversees overseas the company."</p>
   </div>
             </div>
             </div>

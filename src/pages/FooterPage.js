@@ -1,12 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { ExternalLink } from 'react-external-link';
+import WebFooter from './WebFooter';
 import './Homepage.css';
 const FooterPage = () => {
     return(
         <>
+        <div className="webFooter">
+          <WebFooter />
+        </div>
+        <div className="mobileFooter">
           <div className="p-3" style={{backgroundColor:'#004AAD',marginTop:'80px',width:'100%'}}>
-          
           <img className="footer-nutri" src="/footer-nutri.png" />
             <div className="row m-3 footer-main">
             <div className="col-md-6">
@@ -106,6 +110,7 @@ const FooterPage = () => {
             <span style={{fontWeight:'600',fontSize:'16px',color:'white',textAlign:'center'}}>© 2024, NutryFood. All rights reserved.</span>
          
             </div>
+          </div>
           </div>
           
         </>

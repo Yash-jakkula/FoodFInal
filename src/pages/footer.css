@@ -7,10 +7,23 @@
    font-size:'20px'; 
 }
 
+.WebFooter{
+    display: block;
+}
+.mobileFooter{
+    display: none;
+}
 
-@media screen and (max-width:600px) {
+
+@media screen and (max-width:1200px) {
     .text-white{
         font-size: 10px;
+    }
+    .WebFooter{
+        display: none;
+    }
+    .mobileFooter{
+        display: block;
     }
 
   
