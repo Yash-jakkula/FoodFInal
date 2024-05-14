@@ -99,8 +99,9 @@
 }
 
 .text-k{
+  font-family: "Montserrat";
     font-weight: 600;
-    font-size: 23px;
+    font-size: 20px;
     text-align: center;
 }
 
@@ -219,8 +220,8 @@
         justify-content: flex-start;
     }
     .footer-nutri{
-      width: 101px;
-      height: 27px;
+      width: 150px;
+      height: 40px;
       margin-left: 13px;
     }
     .home-text-black{
@@ -334,7 +335,7 @@
 }
 
 .text-k{
-  font-size: 10px;
+  font-size: 7px;
 }
 
 
