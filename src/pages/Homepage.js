@@ -50,7 +50,7 @@ const Homepage = () => {
             
            
             </div>
-    <div class="row mt-4 d-flex justify-content-center icons-images-web">
+    <div class="row mt-4 ml-1 mr-1 d-flex justify-content-center icons-images-web">
     <div class="col-md-2 col-sm-2 col-xs-4 col-4">
         <div class="k-sub-div">
             <div>
