@@ -2,6 +2,7 @@ import React,{useContext, useEffect} from "react";
 import biryaniData from '../data/biryaniData.json';
 import breakfastMixesData from '../data/breakfastMixesData.json';
 import teaConcentrationsData from '../data/teaConcentrationsData.json'
+import Flours from '../data/Flours.json';
 import { Context } from "../context/OrderContext";
 import { Link } from "react-router-dom";
 import './product_style.css'
@@ -16,11 +17,11 @@ export default function Search(){
             setShow(true);
             const regex = new RegExp(searchItem, 'i');
 
-            const filteredBiryaniData = biryaniData.filter(item => regex.test(item.productName));
-            const filteredBreakfastData = breakfastMixesData.filter(item => regex.test(item.productName));
-            const filteredTeaData = teaConcentrationsData.filter(item => regex.test(item.productName));
-
-            const combinedData = [...filteredBiryaniData, ...filteredBreakfastData, ...filteredTeaData];
+            const filteredBiryaniData = biryaniData.filter(item => regex.test(item.name));
+            const filteredBreakfastData = breakfastMixesData.filter(item => regex.test(item.name));
+            const filteredTeaData = teaConcentrationsData.filter(item => regex.test(item.name));
+            const filteredFlourData = Flours.filter(item=>regex.test(item.name))
+            const combinedData = [...filteredBiryaniData, ...filteredBreakfastData, ...filteredTeaData,...filteredFlourData];
             setMappedData(combinedData);
         } else {
             setShow(false);
@@ -43,7 +44,7 @@ export default function Search(){
              <div className='prod-card' >
                  <div className='discount-tag'>10% Off</div>
                  <img src={product.image} className='p-img' alt={product.productName}></img>
-                 <div className='prod-card-title'>{product.productName}</div>
+                 <div className='prod-card-title'>{product.name}</div>
                  <Link to={{
                      pathname: `/orderpage`,
                      state: {

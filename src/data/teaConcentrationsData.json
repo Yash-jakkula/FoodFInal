@@ -1,116 +1,116 @@
- [
-    {
-      "sno": "36",
-      "productName": "Ginger Flavored Tea Masala",
-      "image": "https://res.cloudinary.com/dqngbsszn/image/upload/v1712842054/Frame_260_30_hwxds5.png",
-      "category": "Tea"
-    },
-    {
-      "sno": "37",
-      "productName": "Cardamom Flavored Tea Masala",
-      "image": "https://res.cloudinary.com/dqngbsszn/image/upload/v1712843824/Frame_260_38_a1iqkh.png",
-      "category": "Tea"
-    },
-    {
-      "sno": "38",
-      "productName": "Rose Flavored Tea Masala",
-      "image": "https://res.cloudinary.com/dqngbsszn/image/upload/v1712843823/Frame_260_39_khj95h.png",
-      "category": "Tea"
-    },
-    {
-      "sno": "39",
-      "productName": "Jasmine Flavored Tea Masala",
-      "image": "https://res.cloudinary.com/dqngbsszn/image/upload/v1712843823/Frame_260_40_roymch.png",
-      "category": "Tea"
-    },
-    {
-      "sno": "40",
-      "productName": "Vanilla Flavored Tea Masala",
-      "image": "https://res.cloudinary.com/dqngbsszn/image/upload/v1712843460/Frame_260_37_ynccn3.png",
-      "category": "Tea"
-    },
-    {
-      "sno": "41",
-      "productName": "Chocolate Flavored Tea Masala",
-      "image": "https://res.cloudinary.com/dqngbsszn/image/upload/v1712842053/Frame_260_32_zb60gq.png",
-      "category": "Tea"
-    },
-    {
-      "sno": "42",
-      "productName": "Green Tea(Mango)",
-      "image": "https://res.cloudinary.com/dqngbsszn/image/upload/v1713851693/Green_Tea_Mango_jwsos7.jpg",
-      "category": "beverages"
-    },
-    {
-      "sno": "43",
-      "productName": "Green Tea(Pineapple)",
-      "image": "https://res.cloudinary.com/dqngbsszn/image/upload/v1713851694/Green_Tea_Pine_apple_g0p4ft.jpg",
-      "category": "beverages"
-    },
-    {
-      "sno": "44",
-      "productName": "Green Tea(Banana)",
-      "image": "https://res.cloudinary.com/dqngbsszn/image/upload/v1713851698/Green_Tea_Banana_jr6kx6.jpg",
-      "category": "beverages"
-    },
-    {
-      "sno": "45",
-      "productName": "Green Tea(Sweet Almond)",
-      "image": "https://res.cloudinary.com/dqngbsszn/image/upload/v1713851696/Green_Tea_Almond_iezhsr.jpg",
-      "category": "beverages"
-    },
-    {
-      "sno": "46",
-      "productName": "Green Tea(Jasmine)",
-      "image": "https://res.cloudinary.com/dqngbsszn/image/upload/v1713851694/Green_Tea_Jasmine_tkwjr0.jpg",
-      "category": "beverages"
-    },
-    {
-      "sno": "47",
-      "productName": "Green Tea(Muskmelon)",
-      "image": "https://res.cloudinary.com/dqngbsszn/image/upload/v1713851708/Green_Tea_Musk_melon_rdhtgo.jpg",
-      "category": "beverages"
-    },
-    {
-      "sno": "48",
-      "productName": "Green Tea(Blue berry)",
-      "image": "https://res.cloudinary.com/dqngbsszn/image/upload/v1713851700/Green_Tea_Bleberry_jq7jyf.jpg",
-      "category": "beverages"
-    },
-    {
-      "sno": "49",
-      "productName": "Green Tea(Guava)",
-      "image": "https://res.cloudinary.com/dqngbsszn/image/upload/v1713851700/Green_Tea_Gauva_tqdlbj.jpg",
-      "category": "beverages"
-    },
-    {
-      "sno": "50",
-      "productName": "Green Tea(Orange)",
-      "image": "https://res.cloudinary.com/dqngbsszn/image/upload/v1713851747/Green_Tea_Orange_qwzjtz.jpg",
-      "category": "beverages"
-    },
-    {
-      "sno": "51",
-      "productName": "Green Tea(Passion fruit)",
-      "image": "https://res.cloudinary.com/dqngbsszn/image/upload/v1713851750/Green_Tea_....._y6g5tz.jpg",
-      "category": "beverages"
-    },
-    {
-      "sno": "52",
-      "productName": "Green Tea(Resin)",
-      "image": "https://res.cloudinary.com/dqngbsszn/image/upload/v1713851753/Green_Tea_Resin_t4ipk9.jpg",
-      "category": "beverages"
-    },
-    {
-      "sno": "53",
-      "productName": "Green Tea(Lemon Lime)",
-      "image": "https://res.cloudinary.com/dqngbsszn/image/upload/v1713853094/WhatsApp_Image_2024-04-22_at_20.39.23_74f4af48_ggdwhy.jpg",
-      "category": "beverages"
-    },
-    {
-      "sno": "54",
-      "productName": "Green Tea(Chocolate)",
-      "image": "https://res.cloudinary.com/dqngbsszn/image/upload/v1713851748/Green_Tea_Choco_kyaji2.jpg",
-      "category": "beverages"
-    }
-  ]
+[
+  {
+    "sno": "36",
+    "name": "Ginger Flavored Tea Masala",
+    "image": "https://res.cloudinary.com/dqngbsszn/image/upload/v1712842054/Frame_260_30_hwxds5.png",
+    "category": "Tea Masala’s"
+  },
+  {
+    "sno": "37",
+    "name": "Cardamom Flavored Tea Masala",
+    "image": "https://res.cloudinary.com/dqngbsszn/image/upload/v1712843824/Frame_260_38_a1iqkh.png",
+    "category": "Tea Masala’s"
+  },
+  {
+    "sno": "38",
+    "name": "Rose Flavored Tea Masala",
+    "image": "https://res.cloudinary.com/dqngbsszn/image/upload/v1712843823/Frame_260_39_khj95h.png",
+    "category": "Tea Masala’s"
+  },
+  {
+    "sno": "39",
+    "name": "Jasmine Flavored Tea Masala",
+    "image": "https://res.cloudinary.com/dqngbsszn/image/upload/v1712843823/Frame_260_40_roymch.png",
+    "category": "Tea Masala’s"
+  },
+  {
+    "sno": "40",
+    "name": "Vanilla Flavored Tea Masala",
+    "image": "https://res.cloudinary.com/dqngbsszn/image/upload/v1712843460/Frame_260_37_ynccn3.png",
+    "category": "Tea Masala’s"
+  },
+  {
+    "sno": "41",
+    "name": "Chocolate Flavored Tea Masala",
+    "image": "https://res.cloudinary.com/dqngbsszn/image/upload/v1712842053/Frame_260_32_zb60gq.png",
+    "category": "Tea Masala’s"
+  },
+  {
+    "sno": "42",
+    "name": "Green Tea(Mango)",
+    "image": "https://res.cloudinary.com/dqngbsszn/image/upload/v1713851693/Green_Tea_Mango_jwsos7.jpg",
+    "category": "Beverage Concentrates"
+  },
+  {
+    "sno": "43",
+    "name": "Green Tea(Pineapple)",
+    "image": "https://res.cloudinary.com/dqngbsszn/image/upload/v1713851694/Green_Tea_Pine_apple_g0p4ft.jpg",
+    "category": "Beverage Concentrates"
+  },
+  {
+    "sno": "44",
+    "name": "Green Tea(Banana)",
+    "image": "https://res.cloudinary.com/dqngbsszn/image/upload/v1713851698/Green_Tea_Banana_jr6kx6.jpg",
+    "category": "Beverage Concentrates"
+  },
+  {
+    "sno": "45",
+    "name": "Green Tea(Sweet Almond)",
+    "image": "https://res.cloudinary.com/dqngbsszn/image/upload/v1713851696/Green_Tea_Almond_iezhsr.jpg",
+    "category": "Beverage Concentrates"
+  },
+  {
+    "sno": "46",
+    "name": "Green Tea(Jasmine)",
+    "image": "https://res.cloudinary.com/dqngbsszn/image/upload/v1713851694/Green_Tea_Jasmine_tkwjr0.jpg",
+    "category": "Beverage Concentrates"
+  },
+  {
+    "sno": "47",
+    "name": "Green Tea(Muskmelon)",
+    "image": "https://res.cloudinary.com/dqngbsszn/image/upload/v1713851708/Green_Tea_Musk_melon_rdhtgo.jpg",
+    "category": "Beverage Concentrates"
+  },
+  {
+    "sno": "48",
+    "name": "Green Tea(Blue berry)",
+    "image": "https://res.cloudinary.com/dqngbsszn/image/upload/v1713851700/Green_Tea_Bleberry_jq7jyf.jpg",
+    "category": "Beverage Concentrates"
+  },
+  {
+    "sno": "49",
+    "name": "Green Tea(Guava)",
+    "image": "https://res.cloudinary.com/dqngbsszn/image/upload/v1713851700/Green_Tea_Gauva_tqdlbj.jpg",
+    "category": "Beverage Concentrates"
+  },
+  {
+    "sno": "50",
+    "name": "Green Tea(Orange)",
+    "image": "https://res.cloudinary.com/dqngbsszn/image/upload/v1713851747/Green_Tea_Orange_qwzjtz.jpg",
+    "category": "Beverage Concentrates"
+  },
+  {
+    "sno": "51",
+    "name": "Green Tea(Passion fruit)",
+    "image": "https://res.cloudinary.com/dqngbsszn/image/upload/v1713851750/Green_Tea_....._y6g5tz.jpg",
+    "category": "Beverage Concentrates"
+  },
+  {
+    "sno": "52",
+    "name": "Green Tea(Resin)",
+    "image": "https://res.cloudinary.com/dqngbsszn/image/upload/v1713851753/Green_Tea_Resin_t4ipk9.jpg",
+    "category": "Beverage Concentrates"
+  },
+  {
+    "sno": "53",
+    "name": "Green Tea(Lemon Lime)",
+    "image": "https://res.cloudinary.com/dqngbsszn/image/upload/v1713853094/WhatsApp_Image_2024-04-22_at_20.39.23_74f4af48_ggdwhy.jpg",
+    "category": "Beverage Concentrates"
+  },
+  {
+    "sno": "54",
+    "name": "Green Tea(Chocolate)",
+    "image": "https://res.cloudinary.com/dqngbsszn/image/upload/v1713851748/Green_Tea_Choco_kyaji2.jpg",
+    "category": "Beverage Concentrates"
+  }
+]

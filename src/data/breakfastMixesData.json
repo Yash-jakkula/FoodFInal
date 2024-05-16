@@ -1,122 +1,122 @@
 [
-    {
-      "sno": "1",
-      "productName": "Dosa Powder",
-      "image": "https://res.cloudinary.com/dqngbsszn/image/upload/v1712836356/Frame_260_rb5rrn.png",
-      "category": "Mix Powders"
-    },
-    {
-      "sno": "2",
-      "productName": "Idli Powder",
-      "image": "https://res.cloudinary.com/dqngbsszn/image/upload/v1712839189/Frame_260_2_nnknvh.png",
-      "category": "Mix Powders"
-    },
-    {
-      "sno": "3",
-      "productName": "Millet Idli Powder",
-      "image": "https://res.cloudinary.com/dqngbsszn/image/upload/v1712839180/Frame_260_3_qxz1la.png",
-      "category": "Mix Powders"
-    },
-    {
-      "sno": "4",
-      "productName": "Millet Dosa Powder",
-      "image": "https://res.cloudinary.com/dqngbsszn/image/upload/v1712839113/Frame_260_4_toelvr.png",
-      "category": "Mix Powders"
-    },
-    {
-      "sno": "5",
-      "productName": "Brown Rice Dosa Powder",
-      "image": "https://res.cloudinary.com/dqngbsszn/image/upload/v1713849194/IMG-20240422-WA0039_ezplyj.jpg",
-      "category": "Mix Powders"
-    },
-    {
-      "sno": "6",
-      "productName": "Red Rice Dosa Powder",
-      "image": "https://res.cloudinary.com/dqngbsszn/image/upload/v1713849193/IMG-20240422-WA0036_pvsnb6.jpg",
-      "category": "Mix Powders"
-    },
-    {
-      "sno": "7",
-      "productName": "Black Rice Dosa Powder",
-      "image": "https://res.cloudinary.com/dqngbsszn/image/upload/v1713849193/IMG-20240422-WA0037_ox0p3m.jpg",
-      "category": "Mix Powders"
-    },
-    {
-      "sno": "8",
-      "productName": "Brown Rice Idly Powder",
-      "image": "https://res.cloudinary.com/dqngbsszn/image/upload/v1713849194/IMG-20240422-WA0040_maev7g.jpg",
-      "category": "Mix Powders"
-    },
-    {
-      "sno": "9",
-      "productName": "Red Rice Idly Powder",
-      "image": "https://res.cloudinary.com/dqngbsszn/image/upload/v1713849193/IMG-20240422-WA0035_k7kpje.jpg",
-      "category": "Mix Powders"
-    },
-    {
-      "sno": "10",
-      "productName": "Black Rice Idly Powder",
-      "image": "https://res.cloudinary.com/dqngbsszn/image/upload/v1713849193/IMG-20240422-WA0034_aumqvv.jpg",
-      "category": "Mix Powders"
-    },
-    {
-      "sno": "11",
-      "productName": "Vegetable Khichdi Mix",
-      "image": "https://res.cloudinary.com/dqngbsszn/image/upload/v1712839773/Frame_260_5_yngim5.png",
-      "category": "Cook Powders"
-    },
-    {
-      "sno": "12",
-      "productName": "Sambar Rice Mix",
-      "image": "https://res.cloudinary.com/dqngbsszn/image/upload/v1712839772/Frame_260_6_pyondw.png",
-      "category": "Cook Powders"
-    },
-    {
-      "sno": "13",
-      "productName": "Bisibelebath Mix",
-      "image": "https://res.cloudinary.com/dqngbsszn/image/upload/v1712839772/Frame_260_7_jgg317.png",
-      "category": "Cook Powders"
-    },
-    {
-      "sno": "14",
-      "productName": "Ground Nut Chutney",
-      "image": "https://res.cloudinary.com/dqngbsszn/image/upload/v1712840506/Frame_260_11_ycdhrf.png",
-      "category": "Chutney"
-    },
-    {
-      "sno": "15",
-      "productName": "Red Chutney",
-      "image": "https://res.cloudinary.com/dqngbsszn/image/upload/v1712840509/Frame_260_12_-_Copy_lnwkti.png",
-      "category": "Chutney"
-    },
-    {
-      "sno": "16",
-      "productName": "Allam Chutney",
-      "image": "https://res.cloudinary.com/dqngbsszn/image/upload/v1712840508/Frame_260_8_xbbux3.png",
-      "category": "Chutney"
-    },
-    {
-      "sno": "17",
-      "productName": "Red Chutney Spread for Dosa",
-      "image": "https://res.cloudinary.com/dqngbsszn/image/upload/v1713849702/IMG-20240422-WA0048_y9pidc.jpg",
-      "category": "Chutney"
-    },
-    {
-      "sno": "18",
-      "productName": "Ghee Powder for Idly",
-      "image": "https://res.cloudinary.com/dqngbsszn/image/upload/v1712840507/Frame_260_9_mmwuow.png",
-      "category": "Chutney"
-    },
-    {
-      "sno": "19",
-      "productName": "Sambhar Dal",
-      "image": "https://res.cloudinary.com/dqngbsszn/image/upload/v1713850983/sambhar_dal_hophpp.jpg",
-      "category": "Sambhar"
-    },
-    {
-      "sno": "20",
-      "productName": "Sambhar Masala",
-      "image": "https://res.cloudinary.com/dqngbsszn/image/upload/v1713850984/sambhar_masala_lxm7zx.jpg",
-      "category": "Sambhar"
-    }
-  ]
+  {
+    "sno": "1",
+    "name": "Dosa Powder",
+    "image": "https://res.cloudinary.com/dqngbsszn/image/upload/v1712836356/Frame_260_rb5rrn.png",
+    "category": "Ready to Mix Powders"
+  },
+  {
+    "sno": "2",
+    "name": "Idli Powder",
+    "image": "https://res.cloudinary.com/dqngbsszn/image/upload/v1712839189/Frame_260_2_nnknvh.png",
+    "category": "Ready to Mix Powders"
+  },
+  {
+    "sno": "3",
+    "name": "Millet Idli Powder",
+    "image": "https://res.cloudinary.com/dqngbsszn/image/upload/v1712839180/Frame_260_3_qxz1la.png",
+    "category": "Ready to Mix Powders"
+  },
+  {
+    "sno": "4",
+    "name": "Millet Dosa Powder",
+    "image": "https://res.cloudinary.com/dqngbsszn/image/upload/v1712839113/Frame_260_4_toelvr.png",
+    "category": "Ready to Mix Powders"
+  },
+  {
+    "sno": "5",
+    "name": "Brown Rice Dosa Powder",
+    "image": "https://res.cloudinary.com/dqngbsszn/image/upload/v1713849194/IMG-20240422-WA0039_ezplyj.jpg",
+    "category": "Ready to Mix Powders"
+  },
+  {
+    "sno": "6",
+    "name": "Red Rice Dosa Powder",
+    "image": "https://res.cloudinary.com/dqngbsszn/image/upload/v1713849193/IMG-20240422-WA0036_pvsnb6.jpg",
+    "category": "Ready to Mix Powders"
+  },
+  {
+    "sno": "7",
+    "name": "Black Rice Dosa Powder",
+    "image": "https://res.cloudinary.com/dqngbsszn/image/upload/v1713849193/IMG-20240422-WA0037_ox0p3m.jpg",
+    "category": "Ready to Mix Powders"
+  },
+  {
+    "sno": "8",
+    "name": "Brown Rice Idly Powder",
+    "image": "https://res.cloudinary.com/dqngbsszn/image/upload/v1713849194/IMG-20240422-WA0040_maev7g.jpg",
+    "category": "Ready to Mix Powders"
+  },
+  {
+    "sno": "9",
+    "name": "Red Rice Idly Powder",
+    "image": "https://res.cloudinary.com/dqngbsszn/image/upload/v1713849193/IMG-20240422-WA0035_k7kpje.jpg",
+    "category": "Ready to Mix Powders"
+  },
+  {
+    "sno": "10",
+    "name": "Black Rice Idly Powder",
+    "image": "https://res.cloudinary.com/dqngbsszn/image/upload/v1713849193/IMG-20240422-WA0034_aumqvv.jpg",
+    "category": "Ready to Mix Powders"
+  },
+  {
+    "sno": "11",
+    "name": "Vegetable Khichdi Mix",
+    "image": "https://res.cloudinary.com/dqngbsszn/image/upload/v1712839773/Frame_260_5_yngim5.png",
+    "category": "Ready to Cook Powders"
+  },
+  {
+    "sno": "12",
+    "name": "Sambar Rice Mix",
+    "image": "https://res.cloudinary.com/dqngbsszn/image/upload/v1712839772/Frame_260_6_pyondw.png",
+    "category": "Ready to Cook Powders"
+  },
+  {
+    "sno": "13",
+    "name": "Bisibelebath Mix",
+    "image": "https://res.cloudinary.com/dqngbsszn/image/upload/v1712839772/Frame_260_7_jgg317.png",
+    "category": "Ready to Cook Powders"
+  },
+  {
+    "sno": "14",
+    "name": "Ground Nut Chutney",
+    "image": "https://res.cloudinary.com/dqngbsszn/image/upload/v1712840506/Frame_260_11_ycdhrf.png",
+    "category": "Chutney"
+  },
+  {
+    "sno": "15",
+    "name": "Red Chutney",
+    "image": "https://res.cloudinary.com/dqngbsszn/image/upload/v1712840509/Frame_260_12_-_Copy_lnwkti.png",
+    "category": "Chutney"
+  },
+  {
+    "sno": "16",
+    "name": "Allam Chutney",
+    "image": "https://res.cloudinary.com/dqngbsszn/image/upload/v1712840508/Frame_260_8_xbbux3.png",
+    "category": "Chutney"
+  },
+  {
+    "sno": "17",
+    "name": "Red Chutney Spread for Dosa",
+    "image": "https://res.cloudinary.com/dqngbsszn/image/upload/v1713849702/IMG-20240422-WA0048_y9pidc.jpg",
+    "category": "Chutney"
+  },
+  {
+    "sno": "18",
+    "name": "Ghee Powder for Idly",
+    "image": "https://res.cloudinary.com/dqngbsszn/image/upload/v1712840507/Frame_260_9_mmwuow.png",
+    "category": "Chutney"
+  },
+  {
+    "sno": "19",
+    "name": "Sambhar Dal",
+    "image": "https://res.cloudinary.com/dqngbsszn/image/upload/v1713850983/sambhar_dal_hophpp.jpg",
+    "category": "Sambhar"
+  },
+  {
+    "sno": "20",
+    "name": "Sambhar Masala",
+    "image": "https://res.cloudinary.com/dqngbsszn/image/upload/v1713850984/sambhar_masala_lxm7zx.jpg",
+    "category": "Sambhar"
+  }
+]

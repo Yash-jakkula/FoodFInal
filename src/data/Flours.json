@@ -1,0 +1,41 @@
+
+
+[
+    {
+      "sno": "55",
+      "name": "Multi Grain Aata Flour",
+      "image": "https://res.cloudinary.com/dqngbsszn/image/upload/v1715834904/Frame_260_bbz3ap.png",
+      "category": "Flours"
+    },
+    {
+      "sno": "56",
+      "name": "Ragi Flour",
+      "image": "https://res.cloudinary.com/dqngbsszn/image/upload/v1715834364/u0nmmksihuxhmrkttiij.png",
+      "category": "Flours"
+    },
+    {
+      "sno": "57",
+      "name": "Jowar Flour",
+      "image": "https://res.cloudinary.com/dqngbsszn/image/upload/v1715835149/Frame_260_5_ofgjes.png",
+      "category": "Flours"
+    },
+    {
+      "sno": "58",
+      "name": "Bajra Flour",
+      "image": "https://res.cloudinary.com/dqngbsszn/image/upload/v1715834441/eyv3kwqnjenypkqtih74.png",
+      "category": "Flours"
+    },
+    {
+      "sno": "59",
+      "name": "Foxtail Millet Flour",
+      "image": "https://res.cloudinary.com/dqngbsszn/image/upload/v1715834441/zrde9yocy7jlvtdoxslk.png",
+      "category": "Flours"
+    },
+    {
+      "sno": "60",
+      "name": "Little Millet Flour",
+      "image": "https://res.cloudinary.com/dqngbsszn/image/upload/v1715834441/fumalqzxfgwiw2vih4gd.png",
+      "category": "Flours"
+    }
+  ]
+  

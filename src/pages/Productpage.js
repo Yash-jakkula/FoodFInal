@@ -8,24 +8,26 @@ import Search from './Search';
 import breakfastMixesData from '../data/breakfastMixesData.json'
 import biryaniData from '../data/biryaniData.json'
 import teaConcentrationsData from '../data/teaConcentrationsData.json'
+import Flours from '../data/Flours.json';
   
   
 let data = {
     breakfast: breakfastMixesData,
-    breakfastMixPowders: breakfastMixesData.filter((each) => each.category === "Mix Powders"),
-    breakfastCookPowders: breakfastMixesData.filter((each) => each.category === "Cook Powders"),
+    breakfastMixPowders: breakfastMixesData.filter((each) => each.category === "Ready to Mix Powders"),
+    breakfastCookPowders: breakfastMixesData.filter((each) => each.category === "Ready to Cook Powders"),
     breakfastChutneys: breakfastMixesData.filter((each) => each.category === "Chutney"),
     breakfastSambars: breakfastMixesData.filter((each) => each.category === "Sambhar"),
-    nonVegMasalas: biryaniData.filter((each) => each.category === "non-veg masala"),
-    vegMasalasdata: biryaniData.filter((each) => each.category === "veg masala"),
-    teadata: teaConcentrationsData.filter((each) => each.category === "Tea"),
-    beveragesdata: teaConcentrationsData.filter((each) => each.category === "beverages")
+    nonVegMasalas: biryaniData.filter((each) => each.category === "Non-Veg Biryani Masalas"),
+    vegMasalasdata: biryaniData.filter((each) => each.category === "Veg Masala"),
+    teadata: teaConcentrationsData.filter((each) => each.category === "Tea Masala’s"),
+    beveragesdata: teaConcentrationsData.filter((each) => each.category === "Beverage Concentrates"),
+    flourdata:Flours.filter((each) => each.category === 'Flours')
 }
 
 
 function ProductPage() {
   const navigate=useNavigate()
-  
+  console.log(breakfastMixesData);
   const {searchItem,orderProduct,setOrderProduct,show} = React.useContext(Context);
   console.log(show);
 console.log(searchItem,'sra');
@@ -39,14 +41,16 @@ console.log(searchItem,'sra');
   if (activeTab === "breakfast") {
       activeName = "Mix Powders"
   } else if (activeTab === "biryani") {
-      activeName = "non-veg masala"
-  } else {
-      activeName = "cook"
+      activeName = "Non-Veg Biryani Masalas"
+  } else if(activeTab === 'Flours') {
+      activeName = "Flours"
   }
+  
 
   const [activeFilter, setActiveFilter] = useState(activeName);
 
   const handleFilterClick = (filterName) => {
+    console.log(filterName);
       setActiveFilter(filterName);
   };
 
@@ -71,26 +75,36 @@ console.log(searchItem,'sra');
        <Globe />
        </div>
        </div>
-       {/* {!searchItem ?   */}
+        {!searchItem ?   
        <>
        <div className='product-box'>
         
-     <div className='product-filter'>
-     <button className={`product-button-1 ${activeTab === 'breakfast' ? 'active' : ''}`} onClick={() => handleTabClick('breakfast')}>
-                        
-                            
-                                <img color='black' src='./break.png' alt='Breakfast icon'></img>
-                                <span className='ml-1'>breakfast</span>
-                                                    
+     <div className='row d-flex ml-2 mr-3'>
+                <div className='col-md-3 col-sm-4 col-xs-4 col-4'>
+                    <button className={`product-button-1 ${activeTab === 'breakfast' ? 'active' : ''}`} onClick={() => handleTabClick('breakfast')}>
+                        <img className='btnIcon' src='https://www.pngitem.com/pimgs/m/360-3601614_breakfast-icon-png-breakfast-clipart-png-transparent-png.png' alt='Breakfast icon'></img>
+                        <span className='ml-1 p-text'>breakfast</span>                      
                     </button>
+                </div>
+                <div className='col-md-3 col-sm-4 col-xs-4 col-4'>
                     <button className={`product-button-1 ${activeTab === 'biryani' ? 'active' : ''}`} onClick={() => handleTabClick('biryani')}>
-                    <img src='./biryani.png' alt='Biryani icon'></img>
-                                <span className='p-text'>biryani</span>
+                        <img className='btnIcon' src='https://cdn-icons-png.flaticon.com/512/12999/12999570.png' alt='Biryani icon'></img>
+                        <span className='p-text'>biryani</span>
                     </button>
+                </div>
+                <div className='col-md-3 col-sm-4 col-xs-4 col-4'>
                     <button className={`product-button-1 ${activeTab === 'tea' ? 'active' : ''}`} onClick={() => handleTabClick('tea')}>
-                    <img src='./Tea.png' alt='Biryani icon'></img>
-                                <span className='p-text'>Tea</span>
+                        <img className='btnIcon' src='https://cdn-icons-png.flaticon.com/512/3600/3600323.png' alt='Biryani icon'></img>
+                        <span className='p-text'>Tea</span>
                     </button>
+                    </div>
+                    
+                <div className='col-md-3 col-sm-4 col-xs-4 col-4'>
+                    <button className={`product-button-1 ${activeTab === 'Flours' ? 'active' : ''}`} onClick={() => {handleTabClick('Flours');handleFilterClick('Flours')}}>
+                        <img className='btnIcon' src='https://cdn-icons-png.flaticon.com/512/1205/1205041.png' alt='Biryani icon'></img>
+                        <span className='p-text'>Flours</span>
+                    </button>
+                </div>
      </div>
      <div className='prod-more-filter' style={{display:'flex',justifyContent:'center'}}>
      <div className='row mt-4'>
@@ -142,7 +156,7 @@ console.log(searchItem,'sra');
                     </div>}
      
      </div>
-     {/* < button className = 'btn-prod-card buynow-btn' ><a href='OrderPage.js'>
+     {/* < button className = 'btn-prod-card buynow-btn mt-2' ><a href='OrderPage.js'>
         Buy Now</a> </button> */}
      {/* <div className='products-sort'>
       <div className='total-products'>98 Products</div>
@@ -168,15 +182,15 @@ console.log(searchItem,'sra');
                             <div key={product.id} className='col-md-4 col-sm-6 col-xs-6 col-6 mb-2 prod-card-main' style={{ position: 'relative' }}>
                                 <div className='prod-card' >
                                     <div className='discount-tag'>10% Off</div>
-                                    <img src={product.image} className='p-img' alt={product.productName}></img>
-                                    <div className='prod-card-title'>{product.productName}</div>
+                                    <img src={product.image} className='p-img' alt={product.name}></img>
+                                    <div className='prod-card-title'>{product.name}</div>
                                     <Link to={{
                                         pathname: `/orderpage`,
                                         state: {
-                                            data:{productName:product.productName,image:product.image,sno:product.sno}
+                                            data:{productName:product.name,image:product.image,sno:product.sno}
                                         }
                                     }}>
-                                        <button className='btn-prod-card buynow-btn' onClick={() => handleBuyNowClick(product.productName,product.image,product.category)}>
+                                        <button className='btn-prod-card buynow-btn mt-2' onClick={() => handleBuyNowClick(product.name,product.image,product.category)}>
                                             Buy Now
                                         </button>
                                     </Link>
@@ -192,15 +206,15 @@ console.log(searchItem,'sra');
                             <div key={product.id} className='col-md-4 col-sm-6 col-xs-6 col-6 mb-2 prod-card-main' style={{ position: 'relative' }}>
                                 <div className='prod-card' >
                                     <div className='discount-tag'>10% Off</div>
-                                    <img src={product.image} className='p-img' alt={product.productName}></img>
-                                    <div className='prod-card-title'>{product.productName}</div>
+                                    <img src={product.image} className='p-img' alt={product.name}></img>
+                                    <div className='prod-card-title'>{product.name}</div>
                                     <Link to={{
                                         pathname: `/orderpage`,
                                         state: {
-                                            data:{productName:product.productName,image:product.image,sno:product.sno}
+                                            data:{productName:product.name,image:product.image,sno:product.sno}
                                         }
                                     }}>
-                                        <button className='btn-prod-card buynow-btn' onClick={() => handleBuyNowClick(product.productName,product.image,product.category)}>
+                                        <button className='btn-prod-card buynow-btn mt-2' onClick={() => handleBuyNowClick(product.name,product.image,product.category)}>
                                             Buy Now
                                         </button>
                                     </Link>
@@ -216,15 +230,15 @@ console.log(searchItem,'sra');
                             <div key={product.id} className='col-md-4 col-sm-6 col-xs-6 col-6 mb-2 prod-card-main' style={{ position: 'relative' }}>
                                 <div className='prod-card' >
                                     <div className='discount-tag'>10% Off</div>
-                                    <img src={product.image} className='p-img' alt={product.productName}></img>
-                                    <div className='prod-card-title'>{product.productName}</div>
+                                    <img src={product.image} className='p-img' alt={product.name}></img>
+                                    <div className='prod-card-title'>{product.name}</div>
                                     <Link to={{
                                         pathname: `/orderpage`,
                                         state: {
-                                            data:{productName:product.productName,image:product.image,sno:product.sno}
+                                            data:{productName:product.name,image:product.image,sno:product.sno}
                                         }
                                     }}>
-                                        <button className='btn-prod-card buynow-btn' onClick={() => handleBuyNowClick(product.productName,product.image,product.category)}>
+                                        <button className='btn-prod-card buynow-btn mt-2' onClick={() => handleBuyNowClick(product.name,product.image,product.category)}>
                                             Buy Now
                                         </button>
                                     </Link>
@@ -240,15 +254,15 @@ console.log(searchItem,'sra');
                             <div key={product.id} className='col-md-4 col-sm-6 col-xs-6 col-6 mb-2 prod-card-main' style={{ position: 'relative' }}>
                                 <div className='prod-card' >
                                     <div className='discount-tag'>10% Off</div>
-                                    <img src={product.image} className='p-img' alt={product.productName}></img>
-                                    <div className='prod-card-title'>{product.productName}</div>
+                                    <img src={product.image} className='p-img' alt={product.name}></img>
+                                    <div className='prod-card-title'>{product.name}</div>
                                     <Link to={{
                                         pathname: `/orderpage`,
                                         state: {
-                                            data:{productName:product.productName,image:product.image,sno:product.sno}
+                                            data:{productName:product.name,image:product.image,sno:product.sno}
                                         }
                                     }}>
-                                        <button className='btn-prod-card buynow-btn' onClick={() => handleBuyNowClick(product.productName,product.image,product.category)}>
+                                        <button className='btn-prod-card buynow-btn mt-2' onClick={() => handleBuyNowClick(product.name,product.image,product.category)}>
                                             Buy Now
                                         </button>
                                     </Link>
@@ -266,16 +280,16 @@ console.log(searchItem,'sra');
                                 <div className='prod-card' >
                                     <div className='discount-tag'>10% Off</div>
                                     <div >
-                                        <img src={product.image} className='p-img' alt={product.productName}></img>
+                                        <img src={product.image} className='p-img' alt={product.name}></img>
                                     </div>
-                                    <div className='prod-card-title'>{product.productName}</div>
+                                    <div className='prod-card-title'>{product.name}</div>
                                     <Link to={{
                                         pathname: `/orderpage`,
                                         state: {
-                                            data:{productName:product.productName,image:product.image,sno:product.sno}
+                                            data:{productName:product.name,image:product.image,sno:product.sno}
                                         }
                                     }}>
-                                        <button className='btn-prod-card buynow-btn' onClick={() => handleBuyNowClick(product.productName,product.image,product.category)}>
+                                        <button className='btn-prod-card buynow-btn mt-2' onClick={() => handleBuyNowClick(product.name,product.image,product.category)}>
                                             Buy Now
                                         </button>
                                     </Link>
@@ -292,16 +306,16 @@ console.log(searchItem,'sra');
                                 <div className='prod-card' >
                                     <div className='discount-tag'>10% Off</div>
                                     <div >
-                                        <img className='p-img' src={product.image} alt={product.productName}></img>
+                                        <img className='p-img' src={product.image} alt={product.name}></img>
                                     </div>
-                                    <div className='prod-card-title'>{product.productName}</div>
+                                    <div className='prod-card-title'>{product.name}</div>
                                     <Link to={{
                                         pathname: `/orderpage`,
                                         state: {
-                                            data:{productName:product.productName,image:product.image,sno:product.sno}
+                                            data:{productName:product.name,image:product.image,sno:product.sno}
                                         }
                                     }}>
-                                        <button className='btn-prod-card buynow-btn' onClick={() => handleBuyNowClick(product.productName,product.image,product.category)}>
+                                        <button className='btn-prod-card buynow-btn mt-2' onClick={() => handleBuyNowClick(product.name,product.image,product.category)}>
                                             Buy Now
                                         </button>
                                     </Link>
@@ -319,16 +333,16 @@ console.log(searchItem,'sra');
                                 <div className='prod-card' >
                                     <div className='discount-tag'>10% Off</div>
                                     <div >
-                                        <img className='p-img' src={product.image} alt={product.productName}></img>
+                                        <img className='p-img' src={product.image} alt={product.name}></img>
                                     </div>
-                                    <div className='prod-card-title'>{product.productName}</div>
+                                    <div className='prod-card-title'>{product.name}</div>
                                     <Link to={{
                                         pathname: `/orderpage`,
                                         state: {
-                                            data:{productName:product.productName,image:product.image,sno:product.sno}
+                                            data:{productName:product.name,image:product.image,sno:product.sno}
                                         }
                                     }}>
-                                        <button className='btn-prod-card buynow-btn' onClick={() => handleBuyNowClick(product.productName,product.image,product.category)}>
+                                        <button className='btn-prod-card buynow-btn mt-2' onClick={() => handleBuyNowClick(product.name,product.image,product.category)}>
                                             Buy Now
                                         </button>
                                     </Link>
@@ -344,16 +358,16 @@ console.log(searchItem,'sra');
                                 <div className='prod-card' >
                                     <div className='discount-tag'>10% Off</div>
                                     <div >
-                                        <img className='p-img' src={product.image} alt={product.productName}></img>
+                                        <img className='p-img' src={product.image} alt={product.name}></img>
                                     </div>
-                                    <div className='prod-card-title'>{product.productName}</div>
+                                    <div className='prod-card-title'>{product.name}</div>
                                     <Link to={{
                                         pathname: `/orderpage`,
                                         state: {
-                                            data:{productName:product.productName,image:product.image,sno:product.sno}
+                                            data:{productName:product.name,image:product.image,sno:product.sno}
                                         }
                                     }}>
-                                        <button className='btn-prod-card buynow-btn' onClick={() => handleBuyNowClick(product.productName,product.image,product.category)}>
+                                        <button className='btn-prod-card buynow-btn mt-2' onClick={() => handleBuyNowClick(product.name,product.image,product.category)}>
                                             Buy Now
                                         </button>
                                     </Link>
@@ -369,16 +383,16 @@ console.log(searchItem,'sra');
                                 <div className='prod-card' >
                                     <div className='discount-tag'>10% Off</div>
                                     <div >
-                                        <img className='p-img' src={product.image} alt={product.productName}></img>
+                                        <img className='p-img' src={product.image} alt={product.name}></img>
                                     </div>
-                                    <div className='prod-card-title'>{product.productName}</div>
+                                    <div className='prod-card-title'>{product.name}</div>
                                     <Link to={{
                                         pathname: `/orderpage`,
                                         state: {
-                                            data:{productName:product.productName,image:product.image,sno:product.sno}
+                                            data:{productName:product.name,image:product.image,sno:product.sno}
                                         }
                                     }}>
-                                        <button className='btn-prod-card buynow-btn' onClick={() => handleBuyNowClick(product.productName,product.image,product.category)}>
+                                        <button className='btn-prod-card buynow-btn mt-2' onClick={() => handleBuyNowClick(product.name,product.image,product.category)}>
                                             Buy Now
                                         </button>
                                     </Link>
@@ -386,11 +400,35 @@ console.log(searchItem,'sra');
                             </div>
                         )
                     })}
+
+{activeTab === "Flours" && activeFilter === "Flours" && data.flourdata.map((product) => {
+                        const dataToSend = { id: product.sno }
+                        return (
+                            <div key={product.id} className='col-md-4 col-sm-6 col-xs-6 col-6 mb-2 prod-card-main' style={{ position: 'relative' }}>
+                                <div className='prod-card' >
+                                    <div className='discount-tag'>10% Off</div>
+                                    <img src={product.image} className='p-img' alt={product.name}></img>
+                                    <div className='prod-card-title mt-3'>{product.name}</div>
+                                    <Link to={{
+                                        pathname: `/orderpage`,
+                                        state: {
+                                            data:{productName:product.name,image:product.image,sno:product.sno}
+                                        }
+                                    }}>
+                                        <button className='btn-prod-card buynow-btn mt-2' onClick={() => handleBuyNowClick(product.name,product.image,product.category)}>
+                                            Buy Now
+                                        </button>
+                                    </Link>
+     
+                                </div>
+                            </div>
+                        )
+                    })}
      </div>
        </> 
-     {/*    : <div className='row m-2'>
+         : <div className='row m-2'>
             <Search />
-           </div>} */}
+           </div>} 
 
      
         </>
