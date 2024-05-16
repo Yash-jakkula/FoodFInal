@@ -87,6 +87,7 @@
     font-weight: 500;
     font-size: 20px;
     font-style: normal;
+    text-align: justify;
 }
 
 .k-image{
@@ -117,6 +118,7 @@
   font-weight: 500;
   font-size: 20px;
   font-style: normal;
+  text-align: justify;
 }
 
 
@@ -191,7 +193,6 @@
   .webFooter{
     display: none;
   }
-
   
 .who-img{
   width: 100%;
@@ -288,6 +289,7 @@
     color:#000000B2;
     font-weight:500;
     font-size:12px;
+    text-align: justify;
 }
     
 .who-text-div{

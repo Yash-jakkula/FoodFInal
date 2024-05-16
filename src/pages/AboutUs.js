@@ -16,7 +16,7 @@ function Aboutus() {
     <h5 class="mt-2 heading">Standing Foundation</h5>
     <p class="img-text"> <span className='img-text'>“Growth across Globe”</span>
  To reach our beloved Indian 
-residents in any corner of countries not to miss the 
+residents in any corner of globe not to miss the 
 taste and benefits of Indian food - trunking through 
 Indian Restaurants to serve maximum number of 
 people through “Our NutryFood Industries. </p>
@@ -41,7 +41,7 @@ benefits and our loved ones touch</p>
    <img className="card-img-top" src="/API 3.jpg" style={{borderRadius:'10px'}} alt="Card image cap" /> 
   <div class="card-body">
     <h5 class="heading mt-2">Fruitful Results</h5>
-    <p class="img-text"><span className='img-text'>Carry the legacy of our Mothers </span>
+    <p class="img-text"><span className='img-text'>Carrying the legacy of our Mothers </span>
  to present & future generations with our NutryFood</p>
   </div>
 </div>

@@ -120,15 +120,15 @@ const Homepage = () => {
                     <img className="who-img" src="/whoarewe.jpeg" />
                 </div>
                 <div className="col-md-6 who-text-div">
-                    <div className="who-span">
+                    <div className="who-span row mr-2 ml-1">
                 <span className="who-span-text">Welcome to Nutryfood, where culinary innovation meets tradition. With our supreme Research and Development, we've revolutionized cooking, turning hours of effort into minutes of convenience. Effortless Cooking is our mantra, where quality and convenience unite in every dish.
 </span>
 </div>
-<div className="who-span">
+<div className="who-span row mr-2 ml-1">
 <span className="who-span-text">
 We redefine taste through Research Excellence, blending innovative techniques with traditional Indian flavors. Our mission is to share authentic Indian cuisine globally, without compromising on Nutrition, Quality, or Taste.
 </span></div>
-<div className="who-span">
+<div className="who-span row mr-2 ml-1">
 <span className="who-span-text">
 At Nutryfood, excellence is accessible to all, with cost-effective solutions for every kitchen. Join us on a journey where culinary creativity meets innovation, promising unforgettable dining experiences for all.</span><hr />
 </div>
