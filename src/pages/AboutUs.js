@@ -46,21 +46,18 @@ benefits and our loved ones touch</p>
   </div>
 </div>
             </div>
-
-          </div>
-
-                 
+          </div>                
           <div className='container-fluid'>
             
             <div className='col-12 d-flex justify-content-center'>
               <span className='headings'>Our journey</span>
             </div>
             <div className='col-12 d-flex justify-content-center mt-4'>
-                <span className='journeyText'>At the heart of Nutryfood's success lies our unwavering commitment to supreme Research and Development. Through tireless innovation, we've transformed what was once a laborious one-day process into a swift one-minute task, revolutionizing kitchen efficiency and making cooking a breeze. Effortless Cooking truly begins with Nutryfood, where the perfect blend of convenience and high quality ensures that every dish we prepare is a culinary masterpiece.</span>
+                <span className='journeyText'>The heart of Nutryfood's success lies our unwavering commitment to supreme Research and Development. Through tireless innovation, we've transformed what was once a laborious one-day process into a swift one-minute task, revolutionizing kitchen efficiency and making cooking a breeze. Effortless Cooking truly begins with Nutryfood, where the perfect blend of convenience and high quality ensures that every dish we prepare is a culinary masterpiece.</span>
             </div>
             <div className='col-12 d-flex justify-content-center mt-4'>
                 <span className='journeyText'>We take immense pride in our mission of Redefining Taste Through Research Excellence. With each bite, you'll experience the culmination of our dedication to perfection, as we continuously strive to elevate the culinary landscape. Nutryfood serves as the intersection Where Research Meets Nourishment, harmonizing cutting-edge innovation with the rich tapestry of traditional Indian flavors.
-Our vision extends far beyond borders, as we aim to bring the authentic taste of Indian cuisine to tables worldwide. Rest assured, there is No Compromise in Nutrition, Quality, or Taste with Nutryfood. Our solutions are meticulously crafted to uphold the highest standards, ensuring that every dining experience is nothing short of exceptional.</span>
+                Our vision extends far beyond borders, as we aim to bring the authentic taste of Indian cuisine to tables worldwide. Rest assured, there is No Compromise in Nutrition, Quality, or Taste with Nutryfood. Our solutions are meticulously crafted to uphold the highest standards, ensuring that every dining experience is nothing short of exceptional.</span>
             </div>
             <div className='col-12 d-flex justify-content-center mt-4'>
                 <span className='journeyText'>Moreover, our commitment to excellence doesn't come with a hefty price tag. Nutryfood is proud to offer Cost-Effective solutions, making culinary greatness accessible to all. Join us on a journey where culinary creativity meets innovation, promising an unparalleled dining experience that celebrates the artistry of food and the dedication of NutryFood's R&D team.</span>
