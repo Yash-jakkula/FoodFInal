@@ -115,9 +115,9 @@ const Homepage = () => {
                 <div className="col-12 d-flex justify-content-center mb-3" >
                     <span className="headings">Who We Are?</span>
                 </div>
-                <div className="row">
+                <div className="row d-flex align-items-center">
                 <div className="col-md-6 d-flex justify-content-center whoimg">
-                    <img className="who-img" src="/WWA 1.jpg" />
+                    <img className="who-img" src="/whoarewe.jpeg" />
                 </div>
                 <div className="col-md-6 who-text-div">
                     <div className="who-span">
