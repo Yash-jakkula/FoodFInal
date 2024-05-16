@@ -56,7 +56,7 @@ benefits and our loved ones touch</p>
               <span className='headings'>Our journey</span>
             </div>
             <div className='col-12 d-flex justify-content-center mt-4'>
-                <span className='journeyText'>At the heart of Nutryfood's success lies our unwavering commitment to supreme Research and Development. Through tireless innovation, we've transformed what was once a laborious one-day process into a swift one-minute task, revolutionising kitchen efficiency and making cooking a breeze. Effortless Cooking truly begins with Nutryfood, where the perfect blend of convenience and high quality ensures that every dish we prepare is a culinary masterpiece.</span>
+                <span className='journeyText'>At the heart of Nutryfood's success lies our unwavering commitment to supreme Research and Development. Through tireless innovation, we've transformed what was once a laborious one-day process into a swift one-minute task, revolutionizing kitchen efficiency and making cooking a breeze. Effortless Cooking truly begins with Nutryfood, where the perfect blend of convenience and high quality ensures that every dish we prepare is a culinary masterpiece.</span>
             </div>
             <div className='col-12 d-flex justify-content-center mt-4'>
                 <span className='journeyText'>We take immense pride in our mission of Redefining Taste Through Research Excellence. With each bite, you'll experience the culmination of our dedication to perfection, as we continuously strive to elevate the culinary landscape. Nutryfood serves as the intersection Where Research Meets Nourishment, harmonizing cutting-edge innovation with the rich tapestry of traditional Indian flavors.
