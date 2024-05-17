@@ -25,11 +25,11 @@ export default function WebFooter(){
       <ul class="nav flex-column">
         <div className="d-flex flex-direction-row align-items-center mb-2">
           <img src="/m.png" className="footer-icon"/>
-        <li class="nav-item mb-2"><a href="#" class="nav-link w-text-white p-0">icube.help@gmail.com</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link w-text-white p-0">contact@Nutryfood.com</a></li>
         </div>
         <div className="d-flex flex-direction-row align-items-center mb-2">
         <img src="/p.png" className="footer-icon"/>
-        <li class="nav-item mb-2"><a href="#" class="nav-link w-text-white p-0">+91 9876543210</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link w-text-white p-0">+91 9392587332</a></li>
         </div>
         <div className="d-flex flex-direction-row mb-2">
           <div>
