@@ -8,19 +8,32 @@ const Homepage = () => {
             <div className="nvimage">
             <Globe />
             </div>   
-            <div id="carouselExampleSlidesOnly" className="carousel slide" data-ride="carousel">
-  <div className="carousel-inner">
-    <div className="carousel-item active">
-      <img className="d-block img-fluid w-100" src="/S2.jpg" alt="First slide" />
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="/s2.jpg" class="d-block w-100" alt="..." />
     </div>
-    <div className="carousel-item">
-      <img className="d-block img-fluid w-100" src="/chef.png" alt="Second slide" />
+    <div class="carousel-item">
+      <img src="/chef.png" class="d-block w-100" alt="..." />
     </div>
-    <div className="carousel-item">
-      <img className="d-block img-fluid w-100" style={{overflow:'hidden'}} src="/ii3.png" alt="Third slide" />
+    <div class="carousel-item">
+      <img src="/ii3.png" class="d-block w-100" alt="..." />
     </div>
   </div>
-            </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
             </div>
 <div className="main mt-4" style={{width:'90%'}}>
           
