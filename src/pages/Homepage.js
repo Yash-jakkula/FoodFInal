@@ -8,16 +8,16 @@ const Homepage = () => {
             <div className="nvimage">
             <Globe />
             </div>   
-            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="d-block img-fluid w-100" src="/S2.jpg" alt="First slide" />
+            <div id="carouselExampleSlidesOnly" className="carousel slide" data-ride="carousel">
+  <div className="carousel-inner">
+    <div className="carousel-item active">
+      <img className="d-block img-fluid w-100" src="/S2.jpg" alt="First slide" />
     </div>
-    <div class="carousel-item">
-      <img class="d-block img-fluid w-100" src="/chef.png" alt="Second slide" />
+    <div className="carousel-item">
+      <img className="d-block img-fluid w-100" src="/chef.png" alt="Second slide" />
     </div>
-    <div class="carousel-item">
-      <img class="d-block img-fluid w-100" src="/ii3.png" alt="Third slide" />
+    <div className="carousel-item">
+      <img className="d-block img-fluid w-100" style={{overflow:'hidden'}} src="/ii3.png" alt="Third slide" />
     </div>
   </div>
             </div>
