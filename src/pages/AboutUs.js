@@ -124,11 +124,11 @@ benefits and our loved ones touch</p>
             <p class="card-title headings">Founders</p>
           </div>
             <div className='col-12 d-flex justify-content-center'>
-            <div class="row d-flex flex-direction-row" style={{width:'80%'}}>
-              <div className='col-md-6 f1'>
-  <img class="card-img-top" src="/f1.png" alt="Card image cap" style={{height:'100%',width:'100%',marginBottom:'10px'}}/>
-  </div>
-  <div class="col-md-6 mt-2">
+            <div class="row d-flex flex-direction-row align-items-center justify-content-center" style={{width:'80%'}}>
+              <div className='col-md-3 f1'>
+  <img class="card-img-top" src="/profile1.jpeg" alt="Card image cap" style={{height:'100%',width:'100%',marginBottom:'10px',borderRadius:10}}/>
+                    </div>
+                <div class="col-md-6 mt-2">
     <h5 class="card-title img-text-div">Nanda Kishore Reddy<span className='span-text-div'>Co-Founder</span></h5>
 
     <p class="img-text card-sub-text"> Nanda Kishore Reddy,
@@ -149,23 +149,23 @@ benefits and our loved ones touch</p>
      reflecting in Nutryfood's mission to
      redefine taste through research excellence and 
      unwavering commitment to supreme quality.</p>
-  </div>
+                </div>
             </div>
             </div>
 
             <div className='col-12 d-flex justify-content-center mt-4 mb-5'>
-            <div class="row f2-row" style={{width:'80%'}}>
-              <div className='col-md-6 f1'>
-  <img class="card-img-top" src="/f2.png" alt="Card image cap" style={{height:'100%',width:'100%'}}/>
-  </div>
-  <div class="col-md-6 mt-2">
+            <div class="row f2-row align-items-center justify-content-center" style={{width:'80%'}}>
+              <div className='col-md-3 f1'>
+  <img class="card-img-top" src="/profile2.JPG" alt="Card image cap" style={{height:'100%',width:'100%',borderRadius:10}}/>
+              </div>
+              <div class="col-md-6 mt-2">
     <h5 class="card-title img-text-div">Dr. Yalaka Nandini<span className='span-text-div'>Co-Founder</span></h5>
 
     <p class="img-text card-sub-text">"With a decade of experience in Agricultural Engineering Research, Dr. Yalaka Nandini has pioneered various farming technologies for both small and large-scale farmers. 
     Her deep-rooted understanding of food's importance led her to believe that it's pivotal for human health and prosperity. 
     </p>
     <p className='img-text card-sub-text'>Motivated by this belief and a desire to offer high-quality, nutritious food with traditional values to those purchasing and consuming food products, she founded Nutry Food. Dr. Nandini ensures quality standards and oversees overseas the company."</p>
-  </div>
+              </div>
             </div>
             </div>
           </div>

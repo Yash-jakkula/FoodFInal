@@ -2,6 +2,7 @@ import React from "react";
 import './Homepage.css'
 import Globe from "./MobileViewIcon";
 import ImageCarousel from "./imageScroller";
+import AntScroller from "./antScroller";
 const Homepage = () => {
     return(
         <div style={{width:'100%',overflow:'hidden'}}>
@@ -9,7 +10,7 @@ const Homepage = () => {
             <div className="nvimage">
             <Globe />
             </div>   
-            <ImageCarousel />
+            <AntScroller />
             </div>
 <div className="main mt-4" style={{width:'90%'}}>
           
