@@ -27,10 +27,9 @@ let data = {
 
 function ProductPage() {
   const navigate=useNavigate()
-  console.log(breakfastMixesData);
+  
   const {searchItem,orderProduct,setOrderProduct,show} = React.useContext(Context);
-  console.log(show);
-console.log(searchItem,'sra');
+ 
   const [activeTab, setActiveTab] = useState('breakfast');
 
   const handleTabClick = (tabName) => {
@@ -50,7 +49,6 @@ console.log(searchItem,'sra');
   const [activeFilter, setActiveFilter] = useState(activeName);
 
   const handleFilterClick = (filterName) => {
-    console.log(filterName);
       setActiveFilter(filterName);
   };
 

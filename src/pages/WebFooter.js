@@ -5,6 +5,7 @@ export default function WebFooter(){
     return(
         <>
         <footer class="footer row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
+    
     <div class="col mb-3">
       <a href="/" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
         <img class="bi me-2 pl-4" src="./footer-nutri.png" width="400px" height="97px" />
@@ -65,7 +66,7 @@ export default function WebFooter(){
 
     <div className="col-12 d-flex justify-content-center p-4">
   <span className="text-white">© 2024, NutryFood. All rights reserved.</span>
-</div>  
+    </div>  
   </footer>
  
         </>
