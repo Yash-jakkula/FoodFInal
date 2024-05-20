@@ -1,41 +1,38 @@
-
-
 [
-    {
+  {
       "sno": "55",
       "name": "Multi Grain Aata Flour",
-      "image": "https://res.cloudinary.com/dqngbsszn/image/upload/v1715834904/Frame_260_bbz3ap.png",
+      "image": "https://res.cloudinary.com/dnojfautq/image/upload/v1716047862/NUTRY%20FOOD/Flours/Multi%20Grain%20Aata%20Flour.png",
       "category": "Flours"
-    },
-    {
+  },
+  {
       "sno": "56",
       "name": "Ragi Flour",
-      "image": "https://res.cloudinary.com/dqngbsszn/image/upload/v1715834364/u0nmmksihuxhmrkttiij.png",
+      "image": "https://res.cloudinary.com/dnojfautq/image/upload/v1716047865/NUTRY%20FOOD/Flours/Ragi%20Flour.png",
       "category": "Flours"
-    },
-    {
+  },
+  {
       "sno": "57",
       "name": "Jowar Flour",
-      "image": "https://res.cloudinary.com/dqngbsszn/image/upload/v1715835149/Frame_260_5_ofgjes.png",
+      "image": "https://res.cloudinary.com/dnojfautq/image/upload/v1716047869/NUTRY%20FOOD/Flours/Jowar%20Flour.png",
       "category": "Flours"
-    },
-    {
+  },
+  {
       "sno": "58",
       "name": "Bajra Flour",
-      "image": "https://res.cloudinary.com/dqngbsszn/image/upload/v1715834441/eyv3kwqnjenypkqtih74.png",
+      "image": "https://res.cloudinary.com/dnojfautq/image/upload/v1716047873/NUTRY%20FOOD/Flours/Bajra%20Flour.png",
       "category": "Flours"
-    },
-    {
+  },
+  {
       "sno": "59",
       "name": "Foxtail Millet Flour",
-      "image": "https://res.cloudinary.com/dqngbsszn/image/upload/v1715834441/zrde9yocy7jlvtdoxslk.png",
+      "image": "https://res.cloudinary.com/dnojfautq/image/upload/v1716047876/NUTRY%20FOOD/Flours/Foxtail%20Millet%20Flour.png",
       "category": "Flours"
-    },
-    {
+  },
+  {
       "sno": "60",
       "name": "Little Millet Flour",
-      "image": "https://res.cloudinary.com/dqngbsszn/image/upload/v1715834441/fumalqzxfgwiw2vih4gd.png",
+      "image": "https://res.cloudinary.com/dnojfautq/image/upload/v1716047880/NUTRY%20FOOD/Flours/Little%20Millet%20Flour.png",
       "category": "Flours"
-    }
-  ]
-  
+  }
+]
