@@ -10,7 +10,7 @@ const ContactUs = ()=>{
 
     const con = () => {
         
-        const ownerPhoneNumber = '9392587332';
+        const ownerPhoneNumber = '';
         if(name && email && queries ){
         const message = `User Details:\nName: ${name}\nemail: ${email}\nquery: ${queries}`;
      
