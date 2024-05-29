@@ -22,7 +22,7 @@ function OrderPage() {
     if(formdata.name.length > 0 && formdata.email.length > 0 ) {
     
     alert("Ordered Successfully!!!")
-    const ownerPhoneNumber = '9392587332'; // owner's actual phone number(change value if needed)
+    const ownerPhoneNumber = ''; // owner's actual phone number(change value if needed)
     //  WhatsApp message
     const message = `Order Details:\nProduct Name: ${orderProduct.productName}\nName: ${formdata.name}\nEmail: ${formdata.email}`;
     
